@@ -1,6 +1,10 @@
-#Is This Rent Fair? — Aarhus Rental Price Transparency Tool
-##Data Science Project, Cand.merc. Business Intelligence, Aarhus University BSS. August 2026
-Structure
+# Is This Rent Fair? — Aarhus Rental Price Transparency Tool
+
+## Data Science Project, Cand.merc. Business Intelligence, Aarhus University BSS. August 2026
+
+### Structure
+
+```text
 bronze/     Raw listing sources
 silver/     Cleaned, merged listings
 gold/       Final modelling dataset + model results
