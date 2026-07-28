@@ -1,0 +1,7 @@
+Model,RMSE,MAE,R2
+XGBoost,1171.399,794.072,0.895
+Random Forest,1216.168,818.647,0.887
+Linear Regression,1256.832,892.466,0.879
+Decision Tree,1333.035,972.94,0.864
+K-Nearest Neighbours,1797.465,1422.077,0.753
+Mean benchmark,3617.003,2886.745,-0.002

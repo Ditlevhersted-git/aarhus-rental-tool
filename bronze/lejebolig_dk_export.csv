@@ -1,0 +1,181 @@
+BoligStr_m2;AntalVaer;Omraade;KaeledyrOK;Boligtype;MdLeje;AnnonceDato;addr_text
+110.0;3;Skejby;1;privat;13.050;2024-07-24;3. sal
+61.0;3;Skejby;0;almen;5.475;2025-10-13;1. sal
+56.0;2;Skejby;0;privat;7.825;2024-11-03;2. sal
+16.0;1;Brabrand;1;privat;2.200;2025-03-18;2. sal
+68.0;2;Åbyhøj;0;almen;4.475;2025-12-22;st.
+60.0;1;Trøjborg;0;almen;6.325;2024-10-09;3. sal
+55.0;1;Åbyhøj;0;privat;7.125;2025-09-11;1. sal
+76.0;3;Aarhus C;1;almen;8.500;2025-07-27;2. sal
+78.0;4;Aarhus C;0;privat;14.625;2026-06-30;3. sal
+42.0;1;Åbyhøj;0;privat;5.200;2024-08-25;4. sal el. højere
+47.0;1;Risskov;0;privat;6.950;2025-03-20;2. sal
+57.0;2;Aarhus C;1;almen;6.825;2024-10-15;2. sal
+85.0;2;Risskov;1;almen;6.700;2026-05-21;st.
+81.0;2;Vejlby;0;privat;10.550;2026-01-03;st.
+37.0;1;Åbyhøj;1;almen;3.000;2026-03-24;3. sal
+41.0;1;Trøjborg;0;privat;6.200;2026-04-11;1. sal
+86.0;3;Viby;0;almen;7.025;2026-05-04;2. sal
+106.0;5;Aarhus C;0;almen;13.675;2025-02-26;1. sal
+67.0;2;Hasle;0;almen;5.850;2025-05-13;3. sal
+52.0;2;Vejlby;1;privat;6.750;2026-04-04;1. sal
+94.0;4;Trøjborg;1;almen;8.600;2025-08-16;3. sal
+61.0;3;Skejby;0;almen;5.775;2026-04-20;2. sal
+85.0;2;Brabrand;0;privat;8.525;2025-01-07;3. sal
+105.0;4;Vejlby;0;privat;12.275;2025-05-25;1. sal
+83.0;4;Vejlby;0;almen;7.150;2025-08-12;4. sal el. højere
+70.0;2;Skejby;1;privat;9.425;2025-02-16;2. sal
+86.0;3;Hasle;1;privat;10.975;2025-04-15;2. sal
+53.0;1;Hasle;1;privat;5.125;2025-03-30;2. sal
+64.0;2;Centrum;0;privat;11.500;2026-03-05;1. sal
+54.0;1;Aarhus C;0;privat;9.825;2024-09-12;3. sal
+63.0;2;Centrum;0;privat;11.075;2024-11-09;1. sal
+56.0;3;Risskov;0;privat;9.475;2025-06-19;1. sal
+64.0;3;Centrum;0;privat;10.925;2024-11-02;4. sal el. højere
+59.0;2;Trøjborg;1;privat;8.750;2026-01-11;1. sal
+70.0;2;Brabrand;1;privat;7.050;2025-07-29;3. sal
+70.0;3;Centrum;1;privat;12.275;2025-07-22;st.
+75.0;3;Risskov;1;privat;10.900;2026-05-23;2. sal
+102.0;4;Viby;0;privat;11.725;2025-05-21;st.
+31.0;1;Aarhus C;0;almen;3.700;2025-01-01;1. sal
+99.0;3;Risskov;0;privat;15.250;2026-05-02;1. sal
+62.0;3;Åbyhøj;0;almen;5.450;2025-08-17;2. sal
+38.0;1;Viby;1;privat;4.000;2025-08-05;st.
+64.0;2;Hasle;0;privat;8.425;2025-01-12;1. sal
+70.0;3;Centrum;0;almen;7.550;2026-02-02;3. sal
+94.0;4;Brabrand;1;privat;10.050;2024-11-06;3. sal
+43.0;2;Trøjborg;0;almen;4.375;2026-05-05;3. sal
+73.0;2;Aarhus C;0;almen;8.150;2026-07-22;2. sal
+71.0;3;Centrum;1;privat;12.900;2026-06-20;3. sal
+28.0;1;Trøjborg;0;privat;4.175;2025-01-02;2. sal
+40.0;1;Viby;1;privat;5.000;2025-03-08;1. sal
+82.0;3;Aarhus C;0;privat;15.100;2024-06-14;3. sal
+85.0;3;Centrum;0;privat;15.200;2024-07-27;1. sal
+94.0;4;Viby;0;privat;10.350;2025-11-03;st.
+81.0;3;Viby;0;privat;9.675;2026-04-18;4. sal el. højere
+77.0;2;Centrum;1;almen;9.050;2024-06-07;st.
+71.0;2;Aarhus C;0;almen;8.300;2026-05-22;3. sal
+97.0;3;Vejlby;0;privat;11.250;2024-07-18;1. sal
+48.0;1;Viby;1;almen;3.150;2026-07-14;4. sal el. højere
+65.0;3;Aarhus C;0;privat;11.675;2025-01-04;2. sal
+77.0;3;Åbyhøj;0;privat;9.950;2025-05-19;4. sal el. højere
+30.0;2;Aarhus C;1;privat;5.125;2025-12-12;2. sal
+99.0;4;Vejlby;0;privat;13.900;2025-03-17;3. sal
+49.0;2;Aarhus C;1;privat;8.700;2024-07-01;2. sal
+66.0;2;Aarhus C;0;privat;11.850;2025-05-05;4. sal el. højere
+120.0;4;Åbyhøj;0;privat;14.925;2025-10-30;2. sal
+48.0;1;Brabrand;0;privat;4.975;2026-05-21;4. sal el. højere
+55.0;2;Aarhus C;1;almen;7.075;2024-10-03;2. sal
+105.0;4;Aarhus C;0;almen;11.275;2025-01-25;4. sal el. højere
+42.0;1;Centrum;0;privat;7.100;2025-05-15;st.
+58.0;2;Viby;0;privat;6.200;2025-01-04;1. sal
+80.0;3;Centrum;0;privat;13.725;2024-07-06;4. sal el. højere
+79.0;3;Centrum;1;privat;14.775;2024-12-31;1. sal
+82.0;3;Trøjborg;0;privat;11.675;2025-08-26;2. sal
+77.0;4;Hasle;1;almen;5.775;2025-03-09;2. sal
+100.0;5;Risskov;0;privat;14.175;2025-06-12;st.
+92.0;3;Trøjborg;1;privat;13.150;2025-06-22;st.
+82.0;3;Trøjborg;1;almen;7.825;2025-10-10;2. sal
+52.0;2;Åbyhøj;0;privat;6.475;2024-07-25;1. sal
+51.0;2;Trøjborg;0;privat;7.375;2024-06-14;4. sal el. højere
+22.0;2;Viby;1;privat;2.800;2026-06-13;1. sal
+84.0;3;Centrum;0;privat;15.100;2025-06-18;1. sal
+24.0;2;Åbyhøj;1;almen;2.200;2026-04-13;st.
+89.0;4;Aarhus C;0;privat;15.550;2026-02-07;2. sal
+112.0;4;Hasle;1;privat;11.900;2026-02-27;4. sal el. højere
+43.0;1;Trøjborg;1;privat;6.725;2024-11-20;4. sal el. højere
+52.0;2;Brabrand;0;privat;4.900;2025-12-21;2. sal
+57.0;3;Vejlby;1;almen;4.950;2026-02-26;2. sal
+88.0;3;Centrum;0;privat;15.275;2026-07-12;2. sal
+47.0;2;Hasle;0;privat;5.375;2024-06-18;3. sal
+65.0;3;Risskov;1;almen;6.900;2025-02-28;st.
+55.0;3;Vejlby;1;almen;4.175;2025-03-12;4. sal el. højere
+62.0;3;Viby;1;privat;7.825;2025-07-07;4. sal el. højere
+99.0;3;Aarhus C;0;almen;10.425;2025-11-14;2. sal
+45.0;1;Centrum;0;privat;7.975;2025-11-02;1. sal
+70.0;3;Trøjborg;0;privat;11.125;2024-12-23;2. sal
+75.0;3;Risskov;1;almen;6.775;2025-09-17;2. sal
+89.0;3;Risskov;1;privat;15.050;2025-02-15;1. sal
+38.0;1;Centrum;0;almen;4.450;2025-12-18;st.
+95.0;3;Risskov;0;almen;7.600;2025-04-03;3. sal
+78.0;2;Brabrand;1;privat;8.925;2024-10-20;4. sal el. højere
+89.0;3;Trøjborg;1;almen;9.650;2026-01-18;3. sal
+70.0;2;Trøjborg;0;privat;10.075;2024-10-20;1. sal
+29.0;1;Centrum;1;privat;4.950;2025-08-03;2. sal
+52.0;2;Centrum;0;almen;6.025;2024-07-13;1. sal
+88.0;3;Centrum;1;privat;13.975;2025-02-19;4. sal el. højere
+69.0;3;Hasle;1;almen;5.400;2024-10-18;1. sal
+67.0;3;Hasle;1;almen;5.675;2025-01-28;1. sal
+111.0;4;Centrum;0;almen;11.975;2025-05-11;2. sal
+121.0;5;Trøjborg;0;privat;19.050;2025-06-11;3. sal
+67.0;3;Åbyhøj;0;privat;9.900;2024-10-26;2. sal
+114.0;4;Åbyhøj;1;privat;12.700;2025-10-12;st.
+20.0;2;Centrum;1;privat;3.350;2025-10-03;2. sal
+19.0;1;Aarhus C;0;privat;3.350;2025-12-21;3. sal
+89.0;4;Viby;0;privat;10.875;2024-11-27;1. sal
+62.0;2;Aarhus C;1;almen;7.150;2025-03-10;2. sal
+82.0;3;Trøjborg;1;privat;11.400;2026-05-23;1. sal
+80.0;2;Viby;1;almen;4.975;2024-08-11;1. sal
+66.0;3;Skejby;1;almen;5.350;2024-06-30;1. sal
+84.0;3;Trøjborg;0;almen;9.100;2025-04-17;2. sal
+72.0;2;Viby;1;privat;7.550;2026-07-15;3. sal
+31.0;1;Brabrand;1;privat;3.025;2026-01-19;3. sal
+73.0;3;Trøjborg;1;privat;11.300;2024-10-02;1. sal
+72.0;3;Hasle;1;almen;5.375;2025-11-18;1. sal
+112.0;4;Åbyhøj;1;privat;13.350;2024-09-02;1. sal
+41.0;1;Risskov;1;privat;6.600;2026-04-11;3. sal
+68.0;3;Brabrand;0;privat;7.525;2025-02-09;3. sal
+58.0;2;Viby;1;privat;6.250;2025-04-10;3. sal
+65.0;3;Aarhus C;0;privat;11.575;2026-02-06;1. sal
+108.0;4;Åbyhøj;0;almen;9.750;2026-05-11;1. sal
+77.0;3;Risskov;1;privat;11.575;2024-06-29;4. sal el. højere
+57.0;2;Åbyhøj;0;privat;7.425;2025-12-28;2. sal
+72.0;3;Skejby;0;almen;6.825;2026-04-09;3. sal
+86.0;3;Risskov;1;privat;13.800;2025-04-04;1. sal
+44.0;1;Vejlby;0;privat;4.725;2024-08-18;2. sal
+62.0;2;Centrum;0;privat;10.600;2024-12-23;1. sal
+105.0;3;Trøjborg;0;privat;15.075;2025-04-13;2. sal
+89.0;3;Hasle;1;privat;10.575;2025-01-22;2. sal
+67.0;3;Skejby;0;privat;9.550;2024-08-18;4. sal el. højere
+57.0;2;Risskov;1;almen;6.050;2026-06-11;1. sal
+64.0;3;Centrum;1;almen;6.975;2026-07-12;3. sal
+31.0;2;Vejlby;1;privat;3.650;2026-01-02;1. sal
+91.0;2;Trøjborg;0;almen;8.550;2025-03-13;2. sal
+76.0;3;Brabrand;1;almen;4.850;2025-02-28;4. sal el. højere
+71.0;2;Risskov;0;privat;11.825;2025-07-13;1. sal
+37.0;2;Hasle;1;almen;2.975;2025-04-18;2. sal
+51.0;2;Centrum;0;almen;5.800;2025-04-03;4. sal el. højere
+80.0;3;Viby;0;almen;6.650;2025-04-10;3. sal
+74.0;3;Hasle;1;privat;8.425;2026-04-25;4. sal el. højere
+56.0;2;Centrum;1;almen;6.050;2025-01-14;2. sal
+80.0;3;Trøjborg;0;privat;11.725;2026-07-22;1. sal
+91.0;2;Skejby;0;privat;12.525;2025-07-08;st.
+52.0;1;Trøjborg;1;privat;7.975;2026-04-12;4. sal el. højere
+55.0;2;Aarhus C;0;almen;6.675;2025-03-23;st.
+47.0;1;Viby;1;almen;3.575;2025-07-14;4. sal el. højere
+40.0;1;Trøjborg;0;privat;5.750;2026-06-12;4. sal el. højere
+87.0;4;Centrum;1;privat;15.625;2025-01-27;4. sal el. højere
+80.0;3;Aarhus C;0;almen;9.075;2025-04-25;3. sal
+76.0;3;Åbyhøj;0;almen;7.050;2024-10-13;3. sal
+40.0;1;Risskov;0;privat;5.875;2025-05-25;1. sal
+43.0;2;Viby;1;privat;4.925;2025-10-20;3. sal
+66.0;2;Centrum;0;privat;11.675;2025-04-30;2. sal
+58.0;2;Aarhus C;0;privat;10.775;2025-11-15;2. sal
+71.0;2;Hasle;1;almen;4.875;2025-01-14;st.
+51.0;2;Trøjborg;1;almen;4.675;2025-12-03;st.
+84.0;4;Hasle;1;privat;9.575;2025-02-10;3. sal
+111.0;3;Åbyhøj;0;almen;7.825;2024-07-25;st.
+105.0;3;Hasle;1;almen;8.800;2024-06-17;3. sal
+107.0;4;Brabrand;1;almen;7.750;2026-07-05;2. sal
+70.0;2;Aarhus C;0;almen;7.100;2025-12-07;st.
+90.0;3;Centrum;1;privat;14.975;2026-03-31;2. sal
+59.0;3;Centrum;0;almen;7.050;2025-03-24;3. sal
+90.0;3;Brabrand;0;almen;5.750;2026-05-13;4. sal el. højere
+59.0;3;Skejby;0;almen;4.775;2025-01-31;1. sal
+56.0;2;Hasle;1;privat;7.150;2025-04-27;1. sal
+53.0;1;Brabrand;1;privat;5.175;2025-01-15;2. sal
+85.0;3;Viby;1;privat;9.475;2024-09-04;2. sal
+75.0;3;Hasle;1;privat;9.250;2026-05-11;1. sal
+72.0;2;Brabrand;1;privat;7.075;2025-05-30;1. sal
+41.0;1;Vejlby;0;privat;5.025;2024-11-21;st.
+71.0;3;Viby;1;privat;8.275;2024-06-30;2. sal

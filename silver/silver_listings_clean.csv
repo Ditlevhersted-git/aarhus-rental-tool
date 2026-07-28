@@ -1,0 +1,974 @@
+size_m2,rooms,area,pets_allowed,floor,housing_type,rent_kr,listed_date,kilde
+79.0,4,Viby,0,2,privat,9250.0,2025-06-03,boligportal
+55.0,2,Skejby,0,1,privat,7125.0,2025-07-17,boligportal
+64.0,2,Trøjborg,1,2,almen,6575.0,2026-01-26,boligportal
+69.0,3,Aarhus C,0,1,privat,12625.0,2026-04-05,boligportal
+70.0,2,Vejlby,0,2,privat,8625.0,2026-05-29,boligportal
+16.0,1,Hasle,0,3,privat,2200.0,2026-01-05,boligportal
+62.0,2,Trøjborg,1,2,privat,9150.0,2024-09-13,boligportal
+61.0,3,Vejlby,1,2,almen,5475.0,2024-10-29,boligportal
+51.0,2,Risskov,1,3,privat,8600.0,2025-03-08,boligportal
+80.0,4,Vejlby,0,4+,privat,8850.0,2026-01-20,boligportal
+29.0,1,Risskov,0,3,privat,4550.0,2026-04-14,boligportal
+52.0,2,Viby,0,stuen,privat,6050.0,2026-05-11,boligportal
+69.0,3,Trøjborg,0,1,almen,6875.0,2024-10-24,boligportal
+58.0,2,Centrum,0,3,privat,10075.0,2024-12-28,boligportal
+41.0,1,Risskov,1,3,privat,5425.0,2024-12-01,boligportal
+94.0,3,Vejlby,0,3,privat,10650.0,2025-09-15,boligportal
+16.0,1,Centrum,0,1,privat,2925.0,2025-08-02,boligportal
+84.0,2,Vejlby,0,4+,privat,11100.0,2025-09-07,boligportal
+78.0,2,Risskov,0,stuen,privat,12050.0,2025-07-08,boligportal
+66.0,3,Vejlby,0,2,privat,6950.0,2025-05-23,boligportal
+113.0,4,Aarhus C,0,2,almen,14225.0,2026-03-02,boligportal
+61.0,3,Åbyhøj,1,3,privat,6725.0,2025-06-06,boligportal
+50.0,2,Aarhus C,1,1,almen,5725.0,2025-03-10,boligportal
+79.0,3,Vejlby,1,2,almen,5875.0,2024-08-23,boligportal
+70.0,3,Vejlby,1,4+,almen,5975.0,2024-08-17,boligportal
+38.0,1,Centrum,0,1,privat,7000.0,2025-07-04,boligportal
+89.0,4,Brabrand,1,2,privat,10350.0,2024-08-29,boligportal
+49.0,2,Aarhus C,0,1,almen,5875.0,2026-06-01,boligportal
+50.0,2,Vejlby,0,3,privat,6300.0,2025-06-08,boligportal
+62.0,2,Aarhus C,0,1,almen,8050.0,2026-04-24,boligportal
+88.0,3,Centrum,1,3,privat,16175.0,2024-09-09,boligportal
+99.0,4,Brabrand,0,4+,almen,5525.0,2026-01-07,boligportal
+74.0,4,Trøjborg,0,2,almen,7100.0,2025-08-13,boligportal
+62.0,2,Trøjborg,1,4+,almen,5525.0,2026-04-28,boligportal
+17.0,1,Trøjborg,0,3,privat,2475.0,2025-07-28,boligportal
+84.0,3,Skejby,0,2,privat,12550.0,2024-09-09,boligportal
+75.0,2,Vejlby,0,1,almen,6425.0,2024-07-26,boligportal
+103.0,4,Aarhus C,1,1,almen,10925.0,2026-07-28,boligportal
+77.0,4,Risskov,0,2,privat,12400.0,2024-07-28,boligportal
+91.0,3,Viby,0,3,privat,10675.0,2025-12-03,boligportal
+60.0,3,Centrum,0,1,privat,10875.0,2025-03-23,boligportal
+49.0,2,Trøjborg,0,1,almen,4600.0,2024-08-23,boligportal
+49.0,1,Trøjborg,0,2,almen,4675.0,2024-12-17,boligportal
+68.0,2,Åbyhøj,1,2,almen,4700.0,2024-09-26,boligportal
+35.0,2,Risskov,0,3,privat,5275.0,2025-02-02,boligportal
+68.0,3,Centrum,0,stuen,almen,8000.0,2024-12-01,boligportal
+46.0,2,Centrum,0,2,privat,8250.0,2024-08-10,boligportal
+62.0,2,Vejlby,1,1,almen,5900.0,2024-07-19,boligportal
+71.0,3,Vejlby,0,4+,privat,10000.0,2025-12-31,boligportal
+65.0,3,Aarhus C,0,2,almen,7525.0,2024-12-27,boligportal
+64.0,2,Trøjborg,0,stuen,privat,8550.0,2025-10-29,boligportal
+77.0,3,Trøjborg,1,3,almen,7300.0,2024-11-25,boligportal
+57.0,2,Aarhus C,1,3,privat,11600.0,2026-06-15,boligportal
+118.0,4,Vejlby,1,stuen,privat,15225.0,2026-02-10,boligportal
+22.0,1,Vejlby,1,3,almen,2200.0,2025-02-11,boligportal
+86.0,4,Vejlby,0,2,privat,10725.0,2025-07-23,boligportal
+54.0,3,Centrum,0,stuen,privat,9750.0,2025-11-18,boligportal
+96.0,4,Risskov,0,4+,privat,14650.0,2024-10-30,boligportal
+70.0,3,Skejby,0,4+,almen,6825.0,2024-08-31,boligportal
+89.0,3,Trøjborg,0,1,privat,14100.0,2025-02-13,boligportal
+75.0,2,Viby,1,stuen,privat,8625.0,2025-09-22,boligportal
+70.0,3,Vejlby,0,2,privat,8575.0,2025-05-24,boligportal
+108.0,5,Aarhus C,1,stuen,privat,19625.0,2024-12-31,boligportal
+83.0,2,Brabrand,1,2,privat,9250.0,2025-03-09,boligportal
+68.0,2,Hasle,1,1,privat,7875.0,2026-02-25,boligportal
+54.0,2,Viby,1,1,almen,3900.0,2026-03-15,boligportal
+83.0,3,Skejby,0,4+,almen,8300.0,2024-09-01,boligportal
+84.0,3,Viby,0,stuen,privat,10525.0,2025-02-17,boligportal
+70.0,2,Aarhus C,1,1,privat,13450.0,2026-06-11,boligportal
+103.0,4,Viby,0,3,privat,11100.0,2026-07-18,boligportal
+160.0,6,Viby,0,1,privat,20200.0,2025-12-12,boligportal
+80.0,3,Centrum,0,2,privat,12975.0,2025-11-25,boligportal
+67.0,2,Skejby,0,1,privat,8900.0,2026-04-08,boligportal
+49.0,2,Aarhus C,0,2,privat,7950.0,2025-01-23,boligportal
+37.0,1,Åbyhøj,0,1,privat,4675.0,2024-08-09,boligportal
+43.0,1,Skejby,1,stuen,almen,3575.0,2026-01-07,boligportal
+34.0,2,Skejby,1,2,privat,4775.0,2026-04-28,boligportal
+101.0,4,Åbyhøj,1,2,privat,13050.0,2024-07-10,boligportal
+77.0,3,Viby,0,3,almen,5525.0,2026-07-06,boligportal
+16.0,1,Viby,1,1,privat,2200.0,2026-03-01,boligportal
+84.0,4,Brabrand,0,stuen,privat,8550.0,2025-07-10,boligportal
+119.0,4,Åbyhøj,1,1,almen,11475.0,2025-07-07,boligportal
+46.0,3,Aarhus C,0,4+,privat,8200.0,2025-07-29,boligportal
+63.0,3,Åbyhøj,1,2,privat,8075.0,2026-05-24,boligportal
+62.0,2,Brabrand,0,1,almen,4200.0,2024-10-22,boligportal
+36.0,2,Centrum,1,1,privat,6400.0,2025-06-23,boligportal
+58.0,3,Hasle,0,1,almen,5325.0,2025-09-22,boligportal
+57.0,2,Aarhus C,1,1,almen,5825.0,2024-09-16,boligportal
+38.0,1,Trøjborg,0,1,almen,3625.0,2024-12-10,boligportal
+75.0,2,Åbyhøj,0,1,privat,9875.0,2026-06-26,boligportal
+48.0,2,Åbyhøj,1,1,almen,4025.0,2025-06-22,boligportal
+68.0,2,Trøjborg,0,1,privat,9925.0,2026-02-10,boligportal
+133.0,5,Viby,1,2,privat,13600.0,2026-02-18,boligportal
+73.0,3,Aarhus C,0,1,privat,14050.0,2025-04-03,boligportal
+56.0,3,Åbyhøj,0,2,almen,4900.0,2025-02-07,boligportal
+110.0,5,Vejlby,0,stuen,almen,7800.0,2025-04-29,boligportal
+69.0,2,Brabrand,0,4+,privat,7675.0,2026-01-09,boligportal
+77.0,3,Skejby,1,stuen,almen,6800.0,2025-01-01,boligportal
+73.0,2,Aarhus C,0,4+,privat,13525.0,2025-12-13,boligportal
+83.0,4,Viby,1,1,privat,9000.0,2025-09-11,boligportal
+43.0,2,Vejlby,0,3,almen,3350.0,2024-11-28,boligportal
+90.0,4,Vejlby,1,2,privat,12225.0,2024-12-21,boligportal
+76.0,3,Viby,0,stuen,privat,8900.0,2026-03-03,boligportal
+22.0,1,Trøjborg,0,2,almen,2200.0,2024-12-11,boligportal
+57.0,3,Risskov,0,3,almen,6375.0,2024-12-21,boligportal
+95.0,4,Viby,1,1,almen,7450.0,2024-08-07,boligportal
+56.0,2,Aarhus C,0,1,privat,10275.0,2025-04-25,boligportal
+87.0,4,Vejlby,0,stuen,almen,6675.0,2025-03-27,boligportal
+74.0,2,Trøjborg,1,1,privat,10500.0,2026-01-23,boligportal
+70.0,3,Vejlby,1,2,privat,8900.0,2025-08-18,boligportal
+85.0,3,Risskov,1,4+,privat,11975.0,2024-07-22,boligportal
+114.0,3,Viby,1,3,privat,11500.0,2024-12-13,boligportal
+127.0,5,Trøjborg,1,stuen,privat,19250.0,2024-09-24,boligportal
+57.0,3,Viby,0,1,almen,4925.0,2025-01-13,boligportal
+51.0,2,Viby,1,1,privat,5475.0,2024-09-22,boligportal
+44.0,1,Aarhus C,0,4+,privat,6825.0,2025-06-30,boligportal
+105.0,3,Trøjborg,0,stuen,privat,14475.0,2026-07-06,boligportal
+83.0,2,Hasle,0,2,privat,10425.0,2024-11-03,boligportal
+96.0,3,Centrum,0,4+,privat,17200.0,2025-02-20,boligportal
+55.0,2,Åbyhøj,0,3,privat,6850.0,2025-11-29,boligportal
+94.0,3,Risskov,0,1,privat,14350.0,2025-07-01,boligportal
+76.0,2,Aarhus C,1,3,almen,8625.0,2026-07-03,boligportal
+80.0,3,Hasle,0,1,privat,10000.0,2024-10-29,boligportal
+23.0,1,Skejby,0,2,privat,2850.0,2025-08-26,boligportal
+62.0,2,Åbyhøj,0,3,almen,5075.0,2026-05-27,boligportal
+52.0,2,Åbyhøj,0,4+,almen,3575.0,2026-03-01,boligportal
+76.0,4,Åbyhøj,0,3,privat,10050.0,2024-11-08,boligportal
+58.0,1,Risskov,1,4+,privat,8125.0,2025-02-10,boligportal
+38.0,2,Centrum,0,stuen,privat,6800.0,2025-08-20,boligportal
+76.0,3,Skejby,1,stuen,privat,10425.0,2025-09-28,boligportal
+81.0,3,Vejlby,1,stuen,almen,6725.0,2025-01-07,boligportal
+72.0,3,Åbyhøj,0,3,almen,7200.0,2026-06-28,boligportal
+88.0,4,Åbyhøj,1,3,almen,6700.0,2026-02-10,boligportal
+82.0,3,Vejlby,0,stuen,almen,7275.0,2024-10-05,boligportal
+85.0,3,Risskov,1,1,privat,12425.0,2026-05-13,boligportal
+82.0,3,Skejby,1,1,almen,7625.0,2026-05-18,boligportal
+54.0,2,Trøjborg,1,2,almen,5100.0,2025-11-12,boligportal
+45.0,1,Åbyhøj,0,2,privat,5225.0,2024-11-09,boligportal
+88.0,4,Risskov,0,3,almen,8900.0,2025-02-01,boligportal
+18.0,1,Trøjborg,0,1,almen,2200.0,2024-08-21,boligportal
+67.0,2,Centrum,0,2,privat,11175.0,2026-04-25,boligportal
+83.0,4,Viby,1,1,privat,9550.0,2025-05-31,boligportal
+75.0,3,Brabrand,0,2,almen,5275.0,2024-09-25,boligportal
+71.0,3,Brabrand,0,4+,almen,5700.0,2025-02-07,boligportal
+59.0,3,Aarhus C,0,1,almen,7100.0,2025-02-13,boligportal
+39.0,2,Trøjborg,1,3,privat,5450.0,2025-11-10,boligportal
+67.0,3,Viby,1,1,privat,8125.0,2026-07-01,boligportal
+65.0,2,Aarhus C,1,2,privat,11925.0,2025-11-15,boligportal
+56.0,3,Åbyhøj,0,stuen,privat,7500.0,2026-07-17,boligportal
+85.0,4,Hasle,1,4+,almen,6950.0,2024-07-17,boligportal
+27.0,1,Brabrand,1,1,almen,2200.0,2026-05-12,boligportal
+60.0,3,Trøjborg,1,3,almen,5575.0,2024-11-12,boligportal
+76.0,2,Åbyhøj,1,3,privat,9775.0,2025-02-09,boligportal
+19.0,1,Risskov,1,1,privat,2675.0,2024-07-14,boligportal
+75.0,2,Centrum,1,3,privat,12075.0,2026-04-09,boligportal
+35.0,1,Hasle,0,3,privat,4175.0,2024-09-30,boligportal
+74.0,2,Viby,0,2,privat,8275.0,2026-03-25,boligportal
+46.0,1,Viby,0,stuen,almen,3500.0,2025-04-10,boligportal
+48.0,2,Vejlby,0,3,privat,6075.0,2025-08-18,boligportal
+92.0,4,Aarhus C,1,4+,privat,15475.0,2025-01-17,boligportal
+71.0,3,Viby,0,3,almen,5275.0,2025-04-02,boligportal
+34.0,1,Aarhus C,0,1,privat,5675.0,2025-03-02,boligportal
+27.0,1,Skejby,1,1,privat,3675.0,2024-12-13,boligportal
+113.0,3,Åbyhøj,0,1,privat,14250.0,2024-08-20,boligportal
+47.0,3,Centrum,1,2,privat,7850.0,2024-09-16,boligportal
+75.0,3,Viby,0,4+,privat,8575.0,2024-06-04,boligportal
+47.0,1,Skejby,1,1,privat,6325.0,2024-06-04,boligportal
+84.0,4,Aarhus C,0,4+,privat,14650.0,2026-06-24,boligportal
+84.0,4,Centrum,0,1,almen,8725.0,2026-04-20,boligportal
+83.0,4,Aarhus C,0,2,privat,15775.0,2026-05-09,boligportal
+53.0,2,Risskov,1,stuen,privat,7750.0,2026-05-26,boligportal
+84.0,3,Aarhus C,1,3,almen,8375.0,2026-02-12,boligportal
+104.0,4,Aarhus C,0,4+,privat,20050.0,2025-10-30,boligportal
+65.0,3,Åbyhøj,1,2,almen,5575.0,2026-06-08,boligportal
+103.0,4,Brabrand,0,2,privat,8600.0,2026-06-10,boligportal
+89.0,4,Viby,0,2,almen,6200.0,2024-10-11,boligportal
+57.0,2,Trøjborg,1,3,privat,8100.0,2025-02-23,boligportal
+88.0,3,Vejlby,0,1,privat,11275.0,2026-07-10,boligportal
+66.0,3,Risskov,0,4+,privat,11100.0,2026-03-19,boligportal
+36.0,2,Viby,0,1,almen,2625.0,2025-05-05,boligportal
+47.0,2,Aarhus C,0,3,privat,8200.0,2025-06-15,boligportal
+98.0,3,Åbyhøj,0,2,privat,11250.0,2025-09-11,boligportal
+26.0,1,Skejby,0,1,privat,3175.0,2025-08-07,boligportal
+57.0,2,Aarhus C,0,2,almen,6625.0,2025-08-10,boligportal
+39.0,2,Centrum,1,4+,privat,7125.0,2025-07-02,boligportal
+68.0,2,Vejlby,1,4+,almen,5500.0,2024-09-20,boligportal
+121.0,5,Centrum,0,4+,privat,20775.0,2025-12-26,boligportal
+54.0,1,Vejlby,1,stuen,almen,3850.0,2025-11-11,boligportal
+49.0,1,Brabrand,0,2,almen,3375.0,2026-02-02,boligportal
+54.0,2,Aarhus C,1,stuen,privat,9025.0,2025-01-23,boligportal
+71.0,2,Åbyhøj,0,4+,privat,9850.0,2025-02-06,boligportal
+142.0,5,Skejby,1,3,privat,18375.0,2025-04-07,boligportal
+105.0,4,Risskov,0,3,privat,16300.0,2024-12-18,boligportal
+16.0,1,Aarhus C,0,2,privat,3000.0,2026-07-01,boligportal
+48.0,2,Risskov,0,3,privat,6975.0,2026-04-09,boligportal
+103.0,4,Centrum,0,3,privat,16650.0,2025-08-10,boligportal
+104.0,5,Brabrand,1,3,almen,7100.0,2024-11-25,boligportal
+44.0,3,Vejlby,0,2,privat,5475.0,2025-06-28,boligportal
+34.0,1,Åbyhøj,1,1,privat,4200.0,2024-07-12,boligportal
+80.0,3,Trøjborg,0,2,privat,13025.0,2026-03-25,boligportal
+101.0,4,Trøjborg,1,2,almen,8475.0,2025-09-02,boligportal
+41.0,1,Åbyhøj,1,4+,privat,4675.0,2026-02-01,boligportal
+80.0,3,Skejby,0,3,privat,10900.0,2025-04-11,boligportal
+48.0,3,Aarhus C,0,3,privat,9000.0,2024-06-19,boligportal
+81.0,3,Trøjborg,0,1,privat,10700.0,2025-05-23,boligportal
+16.0,1,Viby,1,2,privat,2200.0,2025-01-21,boligportal
+21.0,1,Viby,0,4+,almen,2200.0,2026-06-13,boligportal
+77.0,3,Aarhus C,1,1,privat,14900.0,2025-03-04,boligportal
+66.0,2,Vejlby,1,stuen,privat,7350.0,2025-02-06,boligportal
+54.0,3,Trøjborg,0,1,almen,5275.0,2025-11-30,boligportal
+71.0,3,Trøjborg,0,stuen,almen,6700.0,2025-11-11,boligportal
+86.0,3,Aarhus C,0,2,privat,16775.0,2024-08-29,boligportal
+58.0,2,Aarhus C,1,3,privat,10350.0,2026-04-19,boligportal
+119.0,5,Vejlby,1,1,privat,14825.0,2026-01-25,boligportal
+33.0,2,Brabrand,0,2,privat,3500.0,2025-04-19,boligportal
+66.0,4,Aarhus C,0,4+,privat,12850.0,2025-08-03,boligportal
+32.0,2,Trøjborg,0,3,almen,3600.0,2026-05-19,boligportal
+89.0,4,Vejlby,0,stuen,privat,11725.0,2026-03-30,boligportal
+58.0,3,Centrum,1,stuen,privat,9625.0,2025-04-20,boligportal
+82.0,2,Vejlby,0,2,privat,10800.0,2025-04-14,boligportal
+74.0,1,Vejlby,0,2,privat,7800.0,2025-10-11,boligportal
+68.0,2,Aarhus C,0,2,privat,11500.0,2025-01-17,boligportal
+48.0,1,Risskov,1,1,privat,7325.0,2024-06-16,boligportal
+99.0,4,Centrum,1,2,privat,18300.0,2026-04-04,boligportal
+105.0,3,Trøjborg,0,3,almen,11125.0,2026-03-17,boligportal
+55.0,3,Hasle,0,4+,privat,6225.0,2025-10-07,boligportal
+87.0,4,Risskov,0,1,almen,9025.0,2026-04-09,boligportal
+70.0,2,Centrum,0,2,privat,12275.0,2025-01-07,boligportal
+88.0,3,Risskov,0,1,almen,8600.0,2026-02-23,boligportal
+96.0,3,Centrum,1,1,almen,9825.0,2026-04-01,boligportal
+47.0,1,Brabrand,0,1,almen,3450.0,2025-07-30,boligportal
+93.0,3,Viby,0,3,privat,10850.0,2024-08-27,boligportal
+40.0,1,Viby,1,3,privat,4050.0,2024-09-17,boligportal
+68.0,3,Centrum,1,1,almen,7125.0,2026-02-22,boligportal
+80.0,3,Hasle,1,1,privat,9250.0,2025-05-10,boligportal
+66.0,3,Viby,0,1,privat,7050.0,2025-04-26,boligportal
+66.0,3,Brabrand,0,3,privat,7100.0,2024-07-08,boligportal
+56.0,2,Hasle,1,stuen,almen,4125.0,2025-01-13,boligportal
+97.0,3,Aarhus C,1,3,privat,18175.0,2025-09-04,boligportal
+40.0,2,Skejby,0,4+,privat,4975.0,2025-03-11,boligportal
+80.0,3,Centrum,0,2,almen,9750.0,2026-05-14,boligportal
+87.0,4,Aarhus C,0,1,almen,10450.0,2024-12-14,boligportal
+37.0,1,Skejby,1,3,privat,4400.0,2024-11-13,boligportal
+124.0,5,Åbyhøj,0,1,almen,12600.0,2025-11-21,boligportal
+76.0,3,Viby,0,stuen,privat,8100.0,2024-06-26,boligportal
+60.0,2,Skejby,1,3,privat,7600.0,2025-06-15,boligportal
+48.0,2,Centrum,0,1,almen,5525.0,2026-04-17,boligportal
+38.0,2,Risskov,1,3,privat,5525.0,2025-11-29,boligportal
+76.0,3,Centrum,1,3,almen,8650.0,2025-08-08,boligportal
+70.0,3,Åbyhøj,0,1,privat,8825.0,2025-02-26,boligportal
+82.0,3,Hasle,0,4+,privat,10425.0,2025-10-28,boligportal
+86.0,4,Åbyhøj,1,4+,privat,11475.0,2025-04-22,boligportal
+74.0,3,Vejlby,0,3,privat,9050.0,2025-09-26,boligportal
+29.0,2,Aarhus C,1,2,privat,5175.0,2025-01-03,boligportal
+95.0,3,Åbyhøj,1,1,privat,11750.0,2025-04-08,boligportal
+86.0,4,Skejby,1,3,almen,7350.0,2024-09-07,boligportal
+76.0,3,Trøjborg,0,1,almen,7750.0,2025-06-08,boligportal
+106.0,5,Aarhus C,0,1,privat,17450.0,2025-07-21,boligportal
+96.0,4,Trøjborg,0,2,almen,8550.0,2025-03-24,boligportal
+60.0,3,Aarhus C,1,3,privat,10825.0,2025-06-19,boligportal
+81.0,3,Trøjborg,0,4+,privat,11225.0,2026-01-30,boligportal
+96.0,4,Aarhus C,0,3,privat,18925.0,2025-04-05,boligportal
+63.0,3,Aarhus C,0,2,privat,12200.0,2025-11-06,boligportal
+39.0,2,Åbyhøj,1,4+,almen,3700.0,2025-07-25,boligportal
+74.0,3,Vejlby,0,3,privat,8675.0,2024-11-29,boligportal
+54.0,2,Centrum,0,stuen,privat,9300.0,2025-05-24,boligportal
+101.0,3,Trøjborg,0,2,almen,9500.0,2024-08-15,boligportal
+112.0,4,Aarhus C,0,3,almen,12725.0,2024-07-27,boligportal
+118.0,4,Aarhus C,0,stuen,privat,20825.0,2025-01-24,boligportal
+103.0,4,Risskov,1,stuen,privat,15725.0,2024-07-12,boligportal
+127.0,5,Vejlby,0,stuen,privat,15325.0,2025-11-03,boligportal
+57.0,2,Brabrand,0,stuen,privat,5225.0,2024-07-27,boligportal
+80.0,4,Viby,1,1,almen,7000.0,2026-06-28,boligportal
+71.0,2,Brabrand,0,1,privat,7700.0,2026-04-22,aarhusbolig
+83.0,3,Centrum,0,1,almen,10275.0,2025-10-30,aarhusbolig
+79.0,3,Åbyhøj,0,1,privat,10525.0,2025-05-31,aarhusbolig
+79.0,3,Aarhus C,0,2,privat,14675.0,2024-08-05,aarhusbolig
+81.0,3,Viby,0,stuen,almen,5075.0,2026-03-08,aarhusbolig
+67.0,2,Hasle,0,1,almen,5300.0,2026-06-02,aarhusbolig
+69.0,3,Hasle,1,2,privat,8400.0,2024-07-12,aarhusbolig
+62.0,4,Centrum,1,3,privat,10950.0,2024-08-27,aarhusbolig
+67.0,2,Hasle,0,1,privat,7950.0,2025-09-27,aarhusbolig
+63.0,2,Brabrand,1,3,privat,6475.0,2024-10-21,aarhusbolig
+40.0,1,Brabrand,1,3,privat,4800.0,2025-04-06,aarhusbolig
+16.0,1,Hasle,0,stuen,almen,2200.0,2025-04-21,aarhusbolig
+49.0,2,Aarhus C,1,1,privat,9225.0,2024-08-19,aarhusbolig
+65.0,2,Centrum,1,4+,privat,11875.0,2024-06-04,aarhusbolig
+35.0,1,Centrum,0,stuen,almen,4100.0,2024-10-24,aarhusbolig
+36.0,2,Aarhus C,1,1,privat,5850.0,2026-07-13,aarhusbolig
+27.0,1,Vejlby,0,3,almen,2200.0,2024-12-03,aarhusbolig
+75.0,3,Hasle,1,3,almen,6125.0,2024-12-24,aarhusbolig
+90.0,3,Trøjborg,1,1,almen,8375.0,2026-02-10,aarhusbolig
+78.0,2,Centrum,0,stuen,privat,13025.0,2024-08-02,aarhusbolig
+89.0,3,Hasle,0,1,almen,6850.0,2025-09-16,aarhusbolig
+91.0,4,Trøjborg,0,stuen,almen,9700.0,2024-12-05,aarhusbolig
+56.0,2,Skejby,0,1,privat,7000.0,2024-11-15,aarhusbolig
+91.0,4,Hasle,1,2,almen,7525.0,2025-10-23,aarhusbolig
+87.0,2,Centrum,0,4+,privat,14900.0,2024-06-25,aarhusbolig
+54.0,2,Centrum,0,2,privat,10000.0,2024-10-23,aarhusbolig
+72.0,3,Brabrand,0,1,privat,7250.0,2026-02-06,aarhusbolig
+72.0,3,Trøjborg,1,2,privat,9725.0,2025-12-27,aarhusbolig
+20.0,1,Centrum,0,1,privat,3350.0,2025-02-10,aarhusbolig
+98.0,4,Hasle,0,3,privat,11375.0,2024-12-13,aarhusbolig
+54.0,2,Risskov,1,1,privat,8425.0,2024-10-18,aarhusbolig
+44.0,1,Aarhus C,0,1,almen,4725.0,2025-06-07,aarhusbolig
+70.0,3,Hasle,0,stuen,privat,8775.0,2026-06-20,aarhusbolig
+69.0,3,Aarhus C,0,3,almen,8200.0,2025-12-31,aarhusbolig
+56.0,1,Åbyhøj,0,4+,almen,3600.0,2024-06-13,aarhusbolig
+49.0,2,Aarhus C,1,stuen,almen,5975.0,2025-12-29,aarhusbolig
+41.0,1,Trøjborg,0,2,privat,6700.0,2026-07-23,aarhusbolig
+69.0,3,Åbyhøj,1,1,almen,5200.0,2025-09-07,aarhusbolig
+49.0,2,Vejlby,1,2,almen,4050.0,2024-09-13,aarhusbolig
+67.0,3,Hasle,0,3,privat,8050.0,2025-05-19,aarhusbolig
+72.0,3,Aarhus C,1,3,privat,13025.0,2025-03-21,aarhusbolig
+67.0,2,Centrum,1,2,almen,7400.0,2026-04-10,aarhusbolig
+61.0,3,Skejby,0,2,almen,5350.0,2025-02-05,aarhusbolig
+19.0,1,Risskov,0,3,almen,2200.0,2026-03-03,aarhusbolig
+76.0,3,Vejlby,1,1,almen,6350.0,2025-01-05,aarhusbolig
+88.0,3,Risskov,0,2,almen,7750.0,2024-08-08,aarhusbolig
+56.0,2,Risskov,0,2,privat,8325.0,2024-08-14,aarhusbolig
+76.0,3,Hasle,0,stuen,almen,7225.0,2024-11-18,aarhusbolig
+56.0,2,Viby,1,4+,privat,6825.0,2025-06-02,aarhusbolig
+75.0,3,Trøjborg,0,3,almen,6875.0,2025-09-04,aarhusbolig
+82.0,3,Aarhus C,0,stuen,privat,15250.0,2026-02-08,aarhusbolig
+67.0,3,Centrum,0,1,almen,7025.0,2025-11-05,aarhusbolig
+70.0,2,Åbyhøj,0,2,privat,9050.0,2024-12-31,aarhusbolig
+103.0,4,Viby,1,1,privat,11800.0,2025-05-02,aarhusbolig
+100.0,3,Åbyhøj,1,2,almen,7600.0,2026-05-29,aarhusbolig
+100.0,4,Aarhus C,0,2,almen,11550.0,2025-08-21,aarhusbolig
+84.0,3,Aarhus C,1,2,almen,11625.0,2026-05-31,aarhusbolig
+49.0,2,Trøjborg,1,stuen,almen,4075.0,2026-02-06,aarhusbolig
+77.0,2,Viby,1,4+,privat,8300.0,2026-06-22,aarhusbolig
+45.0,1,Hasle,0,stuen,privat,4900.0,2026-03-22,aarhusbolig
+54.0,2,Hasle,0,3,privat,6125.0,2026-03-26,aarhusbolig
+62.0,2,Åbyhøj,0,2,privat,7725.0,2026-01-01,aarhusbolig
+67.0,4,Brabrand,1,2,almen,4325.0,2025-09-29,aarhusbolig
+42.0,2,Aarhus C,0,2,almen,4825.0,2025-06-04,aarhusbolig
+55.0,2,Brabrand,1,3,almen,4050.0,2024-11-18,aarhusbolig
+79.0,2,Trøjborg,0,2,privat,11625.0,2025-06-29,aarhusbolig
+64.0,3,Aarhus C,1,3,privat,10800.0,2026-03-19,aarhusbolig
+43.0,2,Viby,1,4+,privat,5025.0,2024-09-25,aarhusbolig
+76.0,3,Aarhus C,0,stuen,almen,8500.0,2025-01-27,aarhusbolig
+41.0,1,Viby,0,1,almen,3400.0,2024-12-16,aarhusbolig
+93.0,4,Trøjborg,1,1,privat,13000.0,2024-12-23,aarhusbolig
+48.0,2,Centrum,0,1,privat,8050.0,2025-02-10,aarhusbolig
+72.0,2,Hasle,1,3,privat,8125.0,2025-07-20,aarhusbolig
+43.0,2,Trøjborg,0,stuen,privat,6500.0,2025-10-21,aarhusbolig
+38.0,1,Aarhus C,0,stuen,almen,4025.0,2026-07-08,aarhusbolig
+83.0,4,Trøjborg,1,2,privat,12350.0,2024-10-25,aarhusbolig
+34.0,1,Risskov,1,2,privat,5200.0,2026-05-07,aarhusbolig
+48.0,2,Brabrand,1,2,privat,5375.0,2024-08-19,aarhusbolig
+58.0,1,Åbyhøj,0,2,privat,7500.0,2025-09-17,aarhusbolig
+91.0,3,Vejlby,0,3,privat,11025.0,2024-12-28,aarhusbolig
+91.0,4,Aarhus C,1,1,privat,16400.0,2026-05-29,aarhusbolig
+69.0,2,Åbyhøj,0,1,privat,8575.0,2024-07-29,aarhusbolig
+44.0,2,Vejlby,0,3,privat,5925.0,2025-06-03,aarhusbolig
+91.0,2,Vejlby,0,2,privat,11200.0,2025-10-24,aarhusbolig
+55.0,2,Viby,0,4+,almen,4125.0,2025-01-04,aarhusbolig
+48.0,2,Risskov,1,3,privat,7950.0,2026-03-20,aarhusbolig
+52.0,3,Skejby,0,2,almen,5100.0,2025-09-22,aarhusbolig
+42.0,1,Vejlby,1,1,privat,4950.0,2024-10-18,aarhusbolig
+61.0,3,Trøjborg,0,4+,almen,6375.0,2024-12-11,aarhusbolig
+74.0,3,Risskov,0,2,almen,7950.0,2025-03-04,aarhusbolig
+21.0,1,Aarhus C,0,1,privat,4150.0,2024-06-13,aarhusbolig
+32.0,2,Trøjborg,0,3,almen,3025.0,2025-05-01,aarhusbolig
+80.0,3,Skejby,1,stuen,privat,10150.0,2025-01-25,aarhusbolig
+51.0,1,Aarhus C,0,3,privat,9225.0,2026-04-28,aarhusbolig
+47.0,3,Centrum,1,2,almen,5325.0,2024-09-27,aarhusbolig
+106.0,4,Centrum,0,1,privat,17650.0,2026-06-30,aarhusbolig
+84.0,3,Hasle,1,stuen,privat,9825.0,2025-09-22,aarhusbolig
+64.0,2,Centrum,0,1,almen,7625.0,2025-05-02,aarhusbolig
+55.0,2,Trøjborg,0,1,privat,7250.0,2025-09-09,aarhusbolig
+44.0,2,Centrum,1,1,almen,5200.0,2024-11-11,aarhusbolig
+91.0,3,Risskov,1,1,almen,9550.0,2025-10-09,aarhusbolig
+55.0,3,Aarhus C,0,2,privat,10800.0,2025-07-26,aarhusbolig
+23.0,1,Åbyhøj,1,stuen,privat,2950.0,2025-02-17,aarhusbolig
+45.0,1,Åbyhøj,1,3,almen,3275.0,2025-06-17,aarhusbolig
+60.0,2,Skejby,0,4+,almen,4825.0,2024-08-07,aarhusbolig
+52.0,2,Brabrand,0,1,privat,5575.0,2026-04-29,aarhusbolig
+117.0,4,Risskov,1,4+,privat,18075.0,2026-05-01,aarhusbolig
+57.0,2,Skejby,0,2,privat,8200.0,2024-10-23,aarhusbolig
+79.0,3,Vejlby,1,3,almen,5600.0,2026-01-31,aarhusbolig
+96.0,3,Centrum,0,2,almen,11400.0,2026-04-25,aarhusbolig
+79.0,3,Centrum,1,stuen,almen,7925.0,2025-11-27,aarhusbolig
+60.0,3,Brabrand,1,1,privat,7025.0,2026-07-25,aarhusbolig
+65.0,3,Aarhus C,0,4+,almen,8225.0,2025-09-06,aarhusbolig
+48.0,2,Brabrand,0,1,almen,3025.0,2025-10-10,aarhusbolig
+46.0,1,Trøjborg,0,2,privat,6075.0,2025-11-07,aarhusbolig
+46.0,1,Aarhus C,0,3,almen,4950.0,2025-09-25,aarhusbolig
+75.0,3,Viby,1,2,privat,7100.0,2026-01-16,aarhusbolig
+85.0,4,Åbyhøj,1,stuen,almen,6375.0,2026-05-16,aarhusbolig
+44.0,2,Risskov,0,4+,privat,6925.0,2025-08-27,aarhusbolig
+83.0,3,Åbyhøj,1,2,almen,7325.0,2025-03-23,aarhusbolig
+63.0,3,Viby,0,2,almen,5275.0,2025-05-21,aarhusbolig
+94.0,4,Aarhus C,1,stuen,privat,17800.0,2025-12-07,aarhusbolig
+73.0,3,Skejby,0,2,privat,9650.0,2024-11-05,aarhusbolig
+52.0,1,Risskov,0,3,privat,8375.0,2025-02-24,aarhusbolig
+57.0,2,Viby,0,2,privat,6325.0,2025-04-21,aarhusbolig
+88.0,3,Vejlby,0,3,privat,11375.0,2025-07-15,aarhusbolig
+47.0,1,Centrum,0,2,privat,9075.0,2026-06-16,aarhusbolig
+63.0,2,Viby,1,3,almen,4875.0,2026-05-31,aarhusbolig
+80.0,3,Hasle,1,1,privat,8775.0,2025-06-02,aarhusbolig
+42.0,2,Aarhus C,1,1,privat,6825.0,2026-07-20,aarhusbolig
+59.0,2,Risskov,0,1,privat,8850.0,2025-01-05,aarhusbolig
+28.0,1,Risskov,1,4+,privat,4050.0,2025-04-22,aarhusbolig
+57.0,2,Vejlby,1,3,privat,7325.0,2026-01-02,aarhusbolig
+64.0,2,Brabrand,0,2,privat,7050.0,2024-09-17,aarhusbolig
+48.0,2,Viby,1,1,almen,4000.0,2024-06-19,aarhusbolig
+102.0,4,Skejby,0,4+,privat,14200.0,2025-01-12,aarhusbolig
+49.0,2,Aarhus C,0,1,almen,5850.0,2025-12-06,aarhusbolig
+28.0,1,Aarhus C,0,3,privat,4850.0,2026-04-21,aarhusbolig
+87.0,3,Hasle,1,stuen,almen,5675.0,2024-11-27,aarhusbolig
+85.0,4,Centrum,0,2,almen,9375.0,2025-03-02,aarhusbolig
+70.0,2,Aarhus C,0,1,almen,7650.0,2025-05-21,aarhusbolig
+75.0,3,Trøjborg,1,3,almen,6050.0,2024-07-25,aarhusbolig
+64.0,2,Hasle,1,1,privat,7425.0,2025-11-26,aarhusbolig
+90.0,3,Aarhus C,1,4+,privat,16025.0,2024-07-15,aarhusbolig
+121.0,4,Aarhus C,0,2,privat,21575.0,2025-05-31,aarhusbolig
+48.0,2,Risskov,0,4+,privat,7500.0,2026-05-11,aarhusbolig
+54.0,2,Risskov,0,1,almen,4675.0,2025-10-16,aarhusbolig
+58.0,3,Vejlby,1,1,privat,7550.0,2025-12-09,aarhusbolig
+34.0,2,Åbyhøj,0,stuen,privat,4475.0,2024-10-31,aarhusbolig
+28.0,2,Hasle,0,2,almen,2200.0,2026-04-19,aarhusbolig
+88.0,4,Hasle,1,stuen,privat,10025.0,2025-08-16,aarhusbolig
+105.0,3,Viby,0,1,privat,12125.0,2025-03-15,aarhusbolig
+44.0,3,Viby,1,stuen,privat,5800.0,2025-08-15,aarhusbolig
+77.0,2,Vejlby,0,4+,privat,8750.0,2025-11-07,aarhusbolig
+92.0,3,Skejby,0,4+,privat,12525.0,2024-11-16,aarhusbolig
+55.0,1,Brabrand,1,1,privat,5800.0,2025-03-06,aarhusbolig
+61.0,2,Centrum,0,2,privat,10475.0,2025-07-21,aarhusbolig
+78.0,4,Viby,1,4+,privat,7800.0,2026-04-02,aarhusbolig
+62.0,2,Trøjborg,1,3,privat,8750.0,2026-07-04,aarhusbolig
+44.0,1,Brabrand,0,stuen,privat,4500.0,2025-06-03,aarhusbolig
+33.0,2,Vejlby,0,2,almen,2925.0,2024-08-05,aarhusbolig
+91.0,3,Aarhus C,0,1,almen,9975.0,2024-07-27,aarhusbolig
+39.0,2,Åbyhøj,1,2,privat,4850.0,2026-01-15,aarhusbolig
+62.0,2,Hasle,0,3,privat,7075.0,2026-01-09,aarhusbolig
+103.0,4,Risskov,1,1,almen,10025.0,2026-05-24,aarhusbolig
+45.0,1,Risskov,1,2,privat,7175.0,2025-10-06,aarhusbolig
+105.0,4,Aarhus C,0,2,privat,18825.0,2025-12-20,aarhusbolig
+29.0,1,Centrum,0,4+,privat,5350.0,2025-09-21,aarhusbolig
+50.0,2,Trøjborg,0,3,privat,6850.0,2024-10-13,aarhusbolig
+88.0,2,Åbyhøj,0,2,almen,6700.0,2024-08-30,aarhusbolig
+86.0,3,Brabrand,0,4+,privat,9375.0,2024-09-28,aarhusbolig
+54.0,2,Brabrand,1,3,privat,5750.0,2026-01-21,aarhusbolig
+60.0,2,Trøjborg,0,4+,almen,5000.0,2025-01-23,aarhusbolig
+78.0,3,Centrum,0,3,privat,13650.0,2025-04-18,aarhusbolig
+31.0,2,Aarhus C,1,1,privat,5725.0,2025-03-06,aarhusbolig
+53.0,2,Aarhus C,0,2,almen,5825.0,2025-06-01,aarhusbolig
+73.0,3,Centrum,0,2,privat,12750.0,2024-11-29,aarhusbolig
+90.0,3,Aarhus C,1,1,privat,15900.0,2025-12-26,aarhusbolig
+45.0,2,Viby,0,1,privat,5225.0,2025-11-03,aarhusbolig
+65.0,3,Aarhus C,0,4+,almen,7975.0,2025-10-22,aarhusbolig
+57.0,2,Hasle,0,4+,privat,7250.0,2024-11-24,aarhusbolig
+74.0,2,Vejlby,0,1,almen,5325.0,2026-03-17,aarhusbolig
+83.0,3,Viby,0,3,privat,8750.0,2026-05-24,aarhusbolig
+88.0,3,Skejby,0,4+,privat,12525.0,2025-11-11,aarhusbolig
+90.0,3,Centrum,0,3,privat,14950.0,2024-06-17,aarhusbolig
+54.0,2,Skejby,1,3,privat,7025.0,2025-12-22,aarhusbolig
+63.0,3,Hasle,1,4+,almen,5075.0,2024-11-14,aarhusbolig
+77.0,3,Vejlby,0,3,privat,9075.0,2025-11-12,aarhusbolig
+86.0,3,Centrum,0,3,privat,15025.0,2025-12-27,aarhusbolig
+81.0,3,Viby,1,3,privat,10025.0,2025-05-09,aarhusbolig
+77.0,2,Hasle,0,1,privat,9450.0,2025-04-06,aarhusbolig
+46.0,2,Vejlby,1,1,privat,5700.0,2025-05-19,aarhusbolig
+68.0,3,Risskov,1,2,almen,6100.0,2026-04-13,aarhusbolig
+73.0,2,Centrum,1,3,almen,7975.0,2026-02-26,aarhusbolig
+82.0,3,Centrum,1,2,privat,15550.0,2024-07-21,aarhusbolig
+70.0,3,Risskov,0,4+,almen,7650.0,2026-01-11,aarhusbolig
+72.0,2,Viby,0,stuen,privat,8475.0,2025-06-12,aarhusbolig
+65.0,3,Skejby,0,stuen,privat,9075.0,2024-12-24,aarhusbolig
+86.0,3,Brabrand,0,1,almen,5400.0,2026-04-15,aarhusbolig
+62.0,2,Centrum,1,2,privat,10700.0,2026-01-22,aarhusbolig
+88.0,3,Centrum,0,3,privat,16125.0,2025-08-19,aarhusbolig
+63.0,3,Aarhus C,1,2,almen,7325.0,2025-01-07,aarhusbolig
+70.0,3,Brabrand,0,stuen,privat,6425.0,2024-09-04,aarhusbolig
+32.0,1,Vejlby,0,stuen,privat,3725.0,2024-08-01,aarhusbolig
+93.0,4,Centrum,0,4+,privat,15400.0,2026-05-26,aarhusbolig
+101.0,3,Risskov,1,3,almen,10400.0,2024-10-28,aarhusbolig
+44.0,2,Aarhus C,1,3,privat,7600.0,2026-03-29,aarhusbolig
+29.0,1,Brabrand,1,1,almen,2200.0,2025-12-15,aarhusbolig
+50.0,2,Brabrand,1,ukendt,privat,5125.0,2025-03-16,lejeboligmatch
+100.0,3,Åbyhøj,0,ukendt,privat,13675.0,2024-11-23,lejeboligmatch
+98.0,4,Vejlby,0,ukendt,privat,12500.0,2025-06-21,lejeboligmatch
+74.0,2,Viby,0,ukendt,almen,2450.0,2025-10-11,lejeboligmatch
+33.0,1,Vejlby,1,ukendt,privat,3925.0,2024-10-23,lejeboligmatch
+27.0,1,Åbyhøj,1,ukendt,privat,3325.0,2025-06-29,lejeboligmatch
+70.0,5,Vejlby,0,ukendt,privat,14650.0,2026-01-18,lejeboligmatch
+70.0,2,Viby,0,ukendt,almen,4200.0,2025-11-30,lejeboligmatch
+67.0,4,Viby,0,ukendt,almen,4575.0,2025-05-18,lejeboligmatch
+81.0,4,Hasle,0,ukendt,privat,9450.0,2024-09-04,lejeboligmatch
+45.0,1,Vejlby,0,ukendt,privat,5125.0,2025-11-04,lejeboligmatch
+64.0,3,Hasle,1,ukendt,privat,8225.0,2024-10-18,lejeboligmatch
+40.0,1,Hasle,0,ukendt,almen,2875.0,2025-07-26,lejeboligmatch
+83.0,3,Brabrand,1,ukendt,almen,5475.0,2026-01-26,lejeboligmatch
+45.0,2,Trøjborg,1,ukendt,privat,6150.0,2024-09-16,lejeboligmatch
+69.0,3,Brabrand,0,ukendt,privat,8575.0,2025-02-24,lejeboligmatch
+93.0,3,Aarhus C,1,ukendt,almen,10175.0,2024-08-12,lejeboligmatch
+65.0,3,Hasle,1,ukendt,privat,7425.0,2026-07-22,lejeboligmatch
+88.0,3,Hasle,0,ukendt,privat,10025.0,2025-07-29,lejeboligmatch
+39.0,2,Risskov,0,ukendt,almen,3700.0,2026-01-27,lejeboligmatch
+39.0,1,Aarhus C,0,ukendt,privat,6550.0,2025-12-25,lejeboligmatch
+73.0,2,Risskov,1,ukendt,privat,10900.0,2025-04-14,lejeboligmatch
+63.0,2,Brabrand,0,ukendt,privat,6950.0,2025-05-09,lejeboligmatch
+34.0,2,Trøjborg,1,ukendt,almen,3600.0,2024-10-09,lejeboligmatch
+56.0,1,Skejby,1,ukendt,privat,6375.0,2024-07-26,lejeboligmatch
+64.0,3,Trøjborg,0,ukendt,privat,13875.0,2026-01-03,lejeboligmatch
+51.0,2,Aarhus C,1,ukendt,almen,6675.0,2025-07-20,lejeboligmatch
+69.0,2,Åbyhøj,1,ukendt,almen,5575.0,2025-03-11,lejeboligmatch
+59.0,2,Åbyhøj,1,ukendt,privat,6925.0,2025-07-19,lejeboligmatch
+73.0,2,Åbyhøj,0,ukendt,privat,9250.0,2025-09-20,lejeboligmatch
+76.0,3,Åbyhøj,0,ukendt,privat,9350.0,2026-02-04,lejeboligmatch
+82.0,3,Vejlby,1,ukendt,privat,10575.0,2026-05-09,lejeboligmatch
+80.0,4,Viby,0,ukendt,almen,6525.0,2026-07-10,lejeboligmatch
+88.0,2,Brabrand,1,ukendt,privat,8875.0,2026-07-08,lejeboligmatch
+78.0,4,Centrum,1,ukendt,privat,14275.0,2025-09-05,lejeboligmatch
+73.0,3,Skejby,0,ukendt,privat,10200.0,2024-07-24,lejeboligmatch
+56.0,2,Aarhus C,1,ukendt,almen,6700.0,2025-08-16,lejeboligmatch
+16.0,1,Vejlby,0,ukendt,almen,2200.0,2026-04-28,lejeboligmatch
+59.0,2,Trøjborg,1,ukendt,almen,5450.0,2024-12-17,lejeboligmatch
+49.0,1,Hasle,1,ukendt,privat,5325.0,2026-01-14,lejeboligmatch
+51.0,3,Vejlby,0,ukendt,privat,7375.0,2024-12-11,lejeboligmatch
+26.0,1,Åbyhøj,1,ukendt,privat,3275.0,2025-06-29,lejeboligmatch
+86.0,3,Risskov,1,ukendt,privat,12750.0,2024-09-13,lejeboligmatch
+23.0,1,Risskov,1,ukendt,almen,2200.0,2026-02-06,lejeboligmatch
+78.0,3,Hasle,0,ukendt,almen,7400.0,2025-01-14,lejeboligmatch
+62.0,3,Centrum,0,ukendt,privat,11475.0,2024-08-11,lejeboligmatch
+78.0,3,Trøjborg,0,ukendt,almen,6475.0,2026-06-03,lejeboligmatch
+89.0,3,Skejby,0,ukendt,privat,12550.0,2025-06-26,lejeboligmatch
+116.0,4,Risskov,0,ukendt,almen,11075.0,2025-05-11,lejeboligmatch
+101.0,3,Viby,0,ukendt,almen,7275.0,2024-06-26,lejeboligmatch
+93.0,4,Risskov,1,ukendt,almen,8600.0,2025-12-29,lejeboligmatch
+103.0,4,Åbyhøj,0,ukendt,privat,13675.0,2025-11-09,lejeboligmatch
+69.0,3,Vejlby,0,ukendt,almen,6650.0,2024-10-26,lejeboligmatch
+70.0,3,Risskov,0,ukendt,privat,9925.0,2026-07-03,lejeboligmatch
+56.0,2,Skejby,1,ukendt,almen,4375.0,2025-05-20,lejeboligmatch
+75.0,4,Skejby,0,ukendt,privat,9775.0,2025-09-25,lejeboligmatch
+95.0,3,Trøjborg,0,ukendt,privat,13325.0,2026-07-19,lejeboligmatch
+68.0,2,Åbyhøj,0,ukendt,privat,7850.0,2025-10-15,lejeboligmatch
+68.0,3,Aarhus C,1,ukendt,privat,11675.0,2025-02-08,lejeboligmatch
+53.0,2,Aarhus C,1,ukendt,almen,5775.0,2024-07-05,lejeboligmatch
+106.0,4,Viby,1,ukendt,almen,8825.0,2024-12-28,lejeboligmatch
+68.0,2,Aarhus C,0,ukendt,privat,10875.0,2025-08-09,lejeboligmatch
+81.0,3,Centrum,1,ukendt,privat,13950.0,2024-06-20,lejeboligmatch
+63.0,2,Risskov,1,ukendt,privat,9925.0,2024-08-13,lejeboligmatch
+65.0,3,Aarhus C,0,ukendt,privat,13725.0,2024-06-24,lejeboligmatch
+24.0,1,Aarhus C,0,ukendt,privat,4600.0,2026-01-21,lejeboligmatch
+71.0,3,Aarhus C,0,ukendt,privat,13400.0,2024-06-21,lejeboligmatch
+53.0,2,Åbyhøj,1,ukendt,almen,4400.0,2024-10-15,lejeboligmatch
+99.0,3,Brabrand,0,ukendt,privat,11750.0,2025-04-16,lejeboligmatch
+87.0,4,Aarhus C,1,ukendt,privat,16100.0,2024-09-16,lejeboligmatch
+61.0,3,Vejlby,0,ukendt,privat,8275.0,2024-08-28,lejeboligmatch
+51.0,2,Vejlby,0,ukendt,privat,5750.0,2025-02-27,lejeboligmatch
+45.0,1,Vejlby,0,ukendt,almen,3650.0,2025-12-22,lejeboligmatch
+74.0,4,Viby,1,ukendt,privat,8975.0,2026-05-06,lejeboligmatch
+51.0,2,Trøjborg,0,ukendt,almen,4225.0,2024-07-16,lejeboligmatch
+109.0,4,Skejby,0,ukendt,privat,14425.0,2024-08-12,lejeboligmatch
+43.0,2,Risskov,1,ukendt,privat,6725.0,2025-06-22,lejeboligmatch
+74.0,2,Viby,1,ukendt,almen,3525.0,2024-06-01,lejeboligmatch
+44.0,2,Viby,0,ukendt,almen,3525.0,2025-02-11,lejeboligmatch
+33.0,1,Vejlby,1,ukendt,almen,2825.0,2026-07-03,lejeboligmatch
+77.0,2,Aarhus C,0,ukendt,privat,13400.0,2025-04-25,lejeboligmatch
+49.0,2,Skejby,0,ukendt,almen,4150.0,2024-10-15,lejeboligmatch
+96.0,4,Hasle,0,ukendt,privat,11625.0,2026-05-26,lejeboligmatch
+69.0,3,Åbyhøj,1,ukendt,privat,8875.0,2024-11-15,lejeboligmatch
+22.0,1,Åbyhøj,0,ukendt,almen,2200.0,2025-07-19,lejeboligmatch
+47.0,1,Åbyhøj,0,ukendt,privat,4950.0,2026-04-13,lejeboligmatch
+67.0,3,Skejby,0,ukendt,almen,6125.0,2026-03-13,lejeboligmatch
+98.0,4,Viby,0,ukendt,almen,6900.0,2026-04-07,lejeboligmatch
+64.0,1,Trøjborg,0,ukendt,privat,7500.0,2024-08-30,lejeboligmatch
+60.0,2,Centrum,0,ukendt,privat,11525.0,2025-11-04,lejeboligmatch
+31.0,1,Viby,0,ukendt,privat,3550.0,2024-08-16,lejeboligmatch
+97.0,4,Hasle,1,ukendt,privat,11200.0,2026-07-06,lejeboligmatch
+16.0,1,Risskov,1,ukendt,almen,2200.0,2025-11-11,lejeboligmatch
+73.0,2,Aarhus C,1,ukendt,privat,13150.0,2026-06-04,lejeboligmatch
+67.0,3,Aarhus C,1,ukendt,almen,7475.0,2025-04-07,lejeboligmatch
+75.0,3,Hasle,0,ukendt,privat,9325.0,2024-07-17,lejeboligmatch
+82.0,3,Vejlby,1,ukendt,almen,6675.0,2025-06-05,lejeboligmatch
+93.0,3,Trøjborg,1,ukendt,privat,12550.0,2024-08-03,lejeboligmatch
+68.0,2,Centrum,0,ukendt,privat,11400.0,2025-04-07,lejeboligmatch
+26.0,1,Trøjborg,1,ukendt,privat,3625.0,2024-10-23,lejeboligmatch
+105.0,3,Skejby,0,ukendt,almen,8500.0,2025-07-12,lejeboligmatch
+53.0,3,Brabrand,0,ukendt,privat,5975.0,2025-10-18,lejeboligmatch
+89.0,3,Skejby,0,ukendt,privat,11350.0,2025-09-16,lejeboligmatch
+60.0,2,Viby,0,ukendt,almen,3975.0,2025-10-06,lejeboligmatch
+85.0,3,Trøjborg,1,ukendt,almen,8150.0,2025-11-22,lejeboligmatch
+69.0,3,Brabrand,1,ukendt,privat,7100.0,2026-05-12,lejeboligmatch
+57.0,3,Centrum,1,ukendt,privat,9350.0,2026-03-26,lejeboligmatch
+88.0,2,Åbyhøj,1,ukendt,privat,10500.0,2026-01-29,lejeboligmatch
+16.0,1,Trøjborg,0,ukendt,privat,2450.0,2026-01-29,lejeboligmatch
+67.0,2,Centrum,1,ukendt,almen,7350.0,2025-05-26,lejeboligmatch
+67.0,3,Centrum,1,ukendt,privat,11750.0,2026-03-07,lejeboligmatch
+76.0,3,Trøjborg,0,ukendt,privat,11375.0,2024-09-15,lejeboligmatch
+53.0,1,Aarhus C,0,ukendt,almen,5850.0,2024-06-18,lejeboligmatch
+20.0,1,Aarhus C,0,ukendt,almen,2325.0,2025-05-06,lejeboligmatch
+75.0,3,Åbyhøj,1,ukendt,privat,8425.0,2025-10-30,lejeboligmatch
+38.0,2,Viby,0,ukendt,privat,4900.0,2024-11-12,lejeboligmatch
+82.0,3,Viby,1,ukendt,privat,9575.0,2026-02-22,lejeboligmatch
+76.0,3,Aarhus C,0,ukendt,almen,9275.0,2024-06-18,lejeboligmatch
+66.0,2,Aarhus C,1,ukendt,privat,10925.0,2026-04-19,lejeboligmatch
+103.0,4,Aarhus C,1,ukendt,privat,17725.0,2024-10-06,lejeboligmatch
+68.0,3,Risskov,0,ukendt,privat,14675.0,2025-08-06,lejeboligmatch
+42.0,1,Vejlby,1,ukendt,privat,4800.0,2026-04-27,lejeboligmatch
+24.0,1,Vejlby,0,ukendt,almen,2200.0,2026-05-03,lejeboligmatch
+100.0,4,Hasle,1,ukendt,almen,9175.0,2025-11-28,lejeboligmatch
+122.0,5,Viby,1,ukendt,privat,13225.0,2026-05-10,lejeboligmatch
+49.0,2,Viby,0,ukendt,almen,3650.0,2024-08-30,lejeboligmatch
+67.0,3,Skejby,1,ukendt,privat,9750.0,2026-04-22,lejeboligmatch
+44.0,3,Risskov,0,ukendt,privat,6475.0,2024-07-06,lejeboligmatch
+51.0,2,Hasle,0,ukendt,privat,6000.0,2024-08-19,lejeboligmatch
+138.0,5,Hasle,0,ukendt,privat,18350.0,2024-10-17,lejeboligmatch
+77.0,3,Viby,1,ukendt,almen,5300.0,2025-04-11,lejeboligmatch
+69.0,2,Brabrand,0,ukendt,almen,5200.0,2026-03-21,lejeboligmatch
+71.0,3,Skejby,1,ukendt,privat,9450.0,2024-08-07,lejeboligmatch
+70.0,1,Vejlby,1,ukendt,almen,2875.0,2025-04-21,lejeboligmatch
+76.0,3,Skejby,0,ukendt,privat,9975.0,2024-09-25,lejeboligmatch
+112.0,5,Centrum,0,ukendt,almen,13000.0,2024-12-14,lejeboligmatch
+103.0,4,Aarhus C,1,ukendt,almen,11500.0,2026-03-12,lejeboligmatch
+55.0,2,Centrum,1,ukendt,almen,6750.0,2024-06-21,lejeboligmatch
+46.0,2,Centrum,0,ukendt,almen,4850.0,2024-11-20,lejeboligmatch
+84.0,4,Risskov,1,ukendt,privat,12725.0,2024-06-27,lejeboligmatch
+68.0,3,Risskov,0,ukendt,almen,5700.0,2024-08-09,lejeboligmatch
+65.0,3,Viby,0,ukendt,almen,5575.0,2024-11-07,lejeboligmatch
+49.0,1,Risskov,1,ukendt,almen,4800.0,2024-06-26,lejeboligmatch
+87.0,3,Brabrand,0,ukendt,privat,9625.0,2025-09-15,lejeboligmatch
+69.0,2,Brabrand,0,ukendt,privat,6925.0,2024-12-04,lejeboligmatch
+67.0,3,Brabrand,0,ukendt,privat,7500.0,2026-02-05,lejeboligmatch
+68.0,3,Risskov,0,ukendt,privat,11100.0,2024-06-25,lejeboligmatch
+77.0,3,Viby,0,ukendt,privat,8525.0,2026-06-06,lejeboligmatch
+43.0,1,Viby,0,ukendt,almen,3700.0,2025-12-24,lejeboligmatch
+42.0,2,Skejby,0,ukendt,almen,3575.0,2024-09-25,lejeboligmatch
+16.0,1,Åbyhøj,1,ukendt,privat,2200.0,2025-01-07,lejeboligmatch
+75.0,3,Trøjborg,1,ukendt,almen,7725.0,2024-08-14,lejeboligmatch
+113.0,4,Vejlby,1,ukendt,privat,13775.0,2025-11-04,lejeboligmatch
+92.0,3,Trøjborg,1,ukendt,privat,13275.0,2025-03-19,lejeboligmatch
+67.0,3,Aarhus C,1,ukendt,privat,12375.0,2024-10-03,lejeboligmatch
+40.0,2,Skejby,1,ukendt,privat,5600.0,2026-07-03,lejeboligmatch
+59.0,2,Aarhus C,1,ukendt,almen,6175.0,2026-05-18,lejeboligmatch
+52.0,2,Brabrand,0,ukendt,privat,5575.0,2025-06-22,lejeboligmatch
+76.0,2,Åbyhøj,1,ukendt,privat,9725.0,2026-01-29,lejeboligmatch
+61.0,2,Hasle,0,ukendt,privat,7400.0,2026-03-20,lejeboligmatch
+78.0,3,Vejlby,0,ukendt,privat,10725.0,2026-04-18,lejeboligmatch
+57.0,2,Hasle,0,ukendt,privat,6500.0,2025-05-02,lejeboligmatch
+35.0,1,Skejby,1,ukendt,almen,2675.0,2026-06-22,lejeboligmatch
+108.0,4,Trøjborg,1,ukendt,privat,14625.0,2024-12-20,lejeboligmatch
+35.0,2,Aarhus C,0,ukendt,privat,6625.0,2025-06-23,lejeboligmatch
+37.0,2,Aarhus C,1,ukendt,privat,6350.0,2026-03-04,lejeboligmatch
+49.0,1,Centrum,1,ukendt,privat,8150.0,2026-06-09,lejeboligmatch
+54.0,2,Brabrand,1,ukendt,privat,5075.0,2026-03-25,lejeboligmatch
+86.0,4,Åbyhøj,0,ukendt,almen,6275.0,2026-07-02,lejeboligmatch
+29.0,1,Skejby,1,ukendt,privat,3950.0,2024-10-10,findbolig
+66.0,2,Hasle,1,ukendt,privat,7200.0,2026-05-05,findbolig
+25.0,1,Aarhus C,1,ukendt,privat,3125.0,2024-08-16,findbolig
+74.0,2,Risskov,0,ukendt,privat,8000.0,2024-07-21,findbolig
+74.0,3,Trøjborg,1,ukendt,privat,10675.0,2024-08-20,findbolig
+59.0,2,Aarhus C,1,ukendt,privat,6025.0,2024-12-12,findbolig
+68.0,3,Trøjborg,0,ukendt,privat,10925.0,2025-03-11,findbolig
+76.0,3,Centrum,0,ukendt,privat,14800.0,2025-11-19,findbolig
+90.0,3,Centrum,0,ukendt,privat,8650.0,2024-12-05,findbolig
+59.0,2,Trøjborg,0,ukendt,privat,8775.0,2024-08-17,findbolig
+108.0,4,Risskov,0,ukendt,privat,16500.0,2024-12-04,findbolig
+39.0,2,Centrum,1,ukendt,privat,6950.0,2025-11-02,findbolig
+108.0,5,Åbyhøj,0,ukendt,privat,13425.0,2025-09-27,findbolig
+20.0,1,Vejlby,0,ukendt,privat,2200.0,2025-09-20,findbolig
+57.0,1,Centrum,0,ukendt,privat,10825.0,2025-06-10,findbolig
+101.0,3,Vejlby,0,ukendt,privat,12125.0,2024-12-23,findbolig
+74.0,3,Vejlby,1,ukendt,privat,8950.0,2025-10-08,findbolig
+85.0,3,Hasle,0,ukendt,privat,10450.0,2024-06-04,findbolig
+89.0,3,Hasle,0,ukendt,privat,10725.0,2026-06-25,findbolig
+85.0,3,Aarhus C,1,ukendt,privat,15650.0,2025-06-15,findbolig
+35.0,2,Trøjborg,0,ukendt,privat,3100.0,2025-10-07,findbolig
+44.0,1,Aarhus C,0,ukendt,privat,4975.0,2026-04-26,findbolig
+64.0,3,Trøjborg,0,ukendt,privat,10400.0,2024-07-07,findbolig
+75.0,3,Brabrand,1,ukendt,privat,7900.0,2025-08-15,findbolig
+75.0,3,Åbyhøj,1,ukendt,privat,5975.0,2025-09-05,findbolig
+63.0,2,Viby,0,ukendt,privat,7550.0,2026-06-25,findbolig
+59.0,1,Centrum,0,ukendt,privat,10350.0,2026-01-19,findbolig
+103.0,3,Viby,0,ukendt,privat,11200.0,2024-09-13,findbolig
+73.0,3,Risskov,0,ukendt,privat,7225.0,2025-06-18,findbolig
+79.0,2,Centrum,0,ukendt,privat,8000.0,2026-01-27,findbolig
+63.0,2,Risskov,1,ukendt,privat,6125.0,2026-03-19,findbolig
+56.0,3,Hasle,1,ukendt,privat,7250.0,2025-03-25,findbolig
+78.0,2,Viby,1,ukendt,privat,4950.0,2025-01-12,findbolig
+92.0,4,Viby,0,ukendt,privat,5775.0,2026-06-03,findbolig
+97.0,3,Skejby,0,ukendt,privat,7200.0,2026-03-18,findbolig
+79.0,3,Brabrand,1,ukendt,privat,4575.0,2025-05-31,findbolig
+35.0,1,Centrum,1,ukendt,privat,6350.0,2025-10-17,findbolig
+87.0,4,Åbyhøj,1,ukendt,privat,10700.0,2024-06-02,findbolig
+30.0,1,Centrum,0,ukendt,privat,5000.0,2026-04-29,findbolig
+40.0,1,Centrum,1,ukendt,privat,6975.0,2025-02-25,findbolig
+53.0,2,Aarhus C,0,ukendt,privat,9900.0,2025-03-17,findbolig
+49.0,3,Hasle,1,ukendt,privat,4100.0,2024-09-13,findbolig
+90.0,3,Aarhus C,0,ukendt,privat,15825.0,2026-07-05,findbolig
+79.0,3,Åbyhøj,1,ukendt,privat,5850.0,2026-01-23,findbolig
+83.0,2,Skejby,0,ukendt,privat,11800.0,2024-08-06,findbolig
+51.0,1,Åbyhøj,0,ukendt,privat,6175.0,2024-07-25,findbolig
+72.0,3,Viby,0,ukendt,privat,8150.0,2024-09-18,findbolig
+98.0,4,Viby,1,ukendt,privat,7025.0,2025-01-02,findbolig
+39.0,1,Trøjborg,1,ukendt,privat,3075.0,2024-12-28,findbolig
+55.0,2,Risskov,0,ukendt,privat,5625.0,2025-10-17,findbolig
+54.0,2,Aarhus C,1,ukendt,privat,6875.0,2026-07-28,findbolig
+44.0,2,Trøjborg,1,ukendt,privat,4550.0,2025-05-17,findbolig
+73.0,2,Vejlby,1,ukendt,privat,9100.0,2024-06-26,findbolig
+85.0,3,Hasle,1,ukendt,privat,10075.0,2024-09-14,findbolig
+75.0,3,Centrum,0,ukendt,privat,13500.0,2025-03-17,findbolig
+71.0,2,Åbyhøj,1,ukendt,privat,8750.0,2024-06-03,findbolig
+105.0,4,Brabrand,0,ukendt,privat,10575.0,2024-08-24,findbolig
+51.0,2,Vejlby,0,ukendt,privat,6350.0,2024-06-12,findbolig
+66.0,3,Risskov,0,ukendt,privat,6975.0,2026-02-07,findbolig
+99.0,3,Aarhus C,0,ukendt,privat,11425.0,2024-08-17,findbolig
+84.0,3,Vejlby,1,ukendt,privat,10725.0,2025-04-16,findbolig
+30.0,1,Risskov,1,ukendt,privat,4250.0,2025-10-23,findbolig
+126.0,5,Åbyhøj,1,ukendt,privat,13800.0,2025-11-21,findbolig
+92.0,3,Centrum,0,ukendt,privat,16675.0,2024-10-19,findbolig
+86.0,3,Vejlby,1,ukendt,privat,9700.0,2025-07-21,findbolig
+48.0,2,Trøjborg,0,ukendt,privat,6575.0,2026-04-27,findbolig
+52.0,2,Risskov,0,ukendt,privat,8000.0,2026-01-31,findbolig
+98.0,4,Risskov,0,ukendt,privat,15750.0,2025-05-12,findbolig
+75.0,4,Hasle,1,ukendt,privat,4700.0,2024-12-07,findbolig
+69.0,3,Åbyhøj,1,ukendt,privat,9225.0,2026-03-14,findbolig
+89.0,3,Risskov,1,ukendt,privat,9025.0,2026-01-07,findbolig
+33.0,1,Skejby,1,ukendt,privat,2850.0,2026-07-07,findbolig
+81.0,2,Risskov,0,ukendt,privat,11850.0,2025-05-19,findbolig
+63.0,2,Åbyhøj,1,ukendt,privat,5125.0,2026-05-18,findbolig
+95.0,3,Åbyhøj,1,ukendt,privat,10875.0,2025-12-09,findbolig
+65.0,3,Viby,1,ukendt,privat,4500.0,2025-05-23,findbolig
+54.0,2,Åbyhøj,1,ukendt,privat,6950.0,2025-04-30,findbolig
+48.0,1,Trøjborg,0,ukendt,privat,6175.0,2025-10-06,findbolig
+82.0,3,Centrum,1,ukendt,privat,13475.0,2025-01-19,findbolig
+28.0,1,Centrum,1,ukendt,privat,3225.0,2026-01-12,findbolig
+107.0,4,Risskov,0,ukendt,privat,11525.0,2026-06-16,findbolig
+67.0,3,Skejby,0,ukendt,privat,5550.0,2024-10-20,findbolig
+78.0,3,Aarhus C,1,ukendt,privat,15025.0,2025-02-19,findbolig
+25.0,1,Centrum,0,ukendt,privat,3125.0,2026-06-09,findbolig
+46.0,1,Trøjborg,0,ukendt,privat,4000.0,2026-02-20,findbolig
+146.0,5,Brabrand,0,ukendt,privat,18000.0,2026-03-19,findbolig
+71.0,2,Vejlby,1,ukendt,privat,8050.0,2024-12-01,findbolig
+81.0,3,Risskov,0,ukendt,privat,12375.0,2024-12-25,findbolig
+32.0,1,Centrum,1,ukendt,privat,5500.0,2024-09-13,findbolig
+20.0,1,Viby,0,ukendt,privat,2525.0,2026-05-10,findbolig
+48.0,2,Trøjborg,0,ukendt,privat,6875.0,2026-03-23,findbolig
+92.0,4,Aarhus C,0,ukendt,privat,11300.0,2025-11-11,findbolig
+93.0,4,Aarhus C,0,ukendt,privat,11000.0,2026-03-29,findbolig
+45.0,1,Aarhus C,0,ukendt,privat,4800.0,2024-09-19,findbolig
+54.0,3,Vejlby,0,ukendt,privat,4650.0,2024-10-25,findbolig
+68.0,3,Viby,1,ukendt,privat,8350.0,2025-12-16,findbolig
+16.0,1,Trøjborg,0,ukendt,privat,2625.0,2025-07-31,findbolig
+73.0,3,Brabrand,0,ukendt,privat,9025.0,2025-05-04,findbolig
+88.0,3,Centrum,1,ukendt,privat,10725.0,2025-03-12,findbolig
+91.0,3,Centrum,1,ukendt,privat,16550.0,2026-02-20,findbolig
+72.0,2,Aarhus C,0,ukendt,privat,13300.0,2025-08-10,findbolig
+56.0,2,Centrum,0,ukendt,privat,6375.0,2025-12-16,findbolig
+72.0,2,Centrum,0,ukendt,privat,13000.0,2025-08-14,findbolig
+58.0,1,Trøjborg,1,ukendt,privat,8350.0,2025-05-23,findbolig
+39.0,1,Centrum,1,ukendt,privat,3900.0,2026-05-19,findbolig
+55.0,1,Aarhus C,1,ukendt,privat,6025.0,2024-06-18,findbolig
+58.0,2,Risskov,0,ukendt,privat,5700.0,2025-06-03,findbolig
+126.0,4,Centrum,0,ukendt,privat,22650.0,2025-08-25,findbolig
+51.0,2,Hasle,0,ukendt,privat,3950.0,2026-05-31,findbolig
+68.0,2,Trøjborg,1,ukendt,privat,10150.0,2025-09-29,findbolig
+62.0,2,Trøjborg,1,ukendt,privat,9525.0,2025-07-05,findbolig
+46.0,2,Skejby,0,ukendt,privat,5700.0,2025-09-25,findbolig
+76.0,2,Centrum,0,ukendt,privat,13825.0,2025-11-18,findbolig
+35.0,2,Trøjborg,0,ukendt,privat,3775.0,2026-04-10,findbolig
+53.0,2,Vejlby,0,ukendt,privat,7125.0,2024-09-26,findbolig
+69.0,4,Åbyhøj,0,ukendt,privat,9625.0,2024-09-03,findbolig
+76.0,2,Centrum,0,ukendt,privat,13250.0,2025-06-21,findbolig
+94.0,4,Aarhus C,0,ukendt,privat,18075.0,2025-11-21,findbolig
+90.0,3,Brabrand,1,ukendt,privat,10200.0,2026-04-26,findbolig
+24.0,1,Aarhus C,0,ukendt,privat,4400.0,2025-11-15,findbolig
+113.0,3,Åbyhøj,0,ukendt,privat,9100.0,2024-11-25,findbolig
+59.0,2,Aarhus C,0,ukendt,privat,10200.0,2024-09-30,findbolig
+165.0,6,Viby,0,ukendt,privat,17525.0,2025-06-16,findbolig
+111.0,5,Åbyhøj,1,ukendt,privat,13900.0,2026-04-14,findbolig
+50.0,2,Brabrand,1,ukendt,privat,6075.0,2025-10-16,findbolig
+64.0,2,Åbyhøj,0,ukendt,privat,8575.0,2025-01-02,findbolig
+79.0,3,Trøjborg,1,ukendt,privat,11800.0,2026-01-29,findbolig
+121.0,5,Viby,0,ukendt,privat,14725.0,2025-05-29,findbolig
+83.0,3,Brabrand,1,ukendt,privat,7175.0,2026-02-05,findbolig
+56.0,2,Åbyhøj,1,ukendt,privat,7325.0,2025-08-05,findbolig
+72.0,2,Skejby,1,ukendt,privat,9425.0,2026-06-11,findbolig
+65.0,3,Vejlby,0,ukendt,privat,8625.0,2025-07-29,findbolig
+68.0,2,Vejlby,0,ukendt,privat,8175.0,2025-04-07,findbolig
+85.0,3,Åbyhøj,1,ukendt,privat,10325.0,2026-07-23,findbolig
+92.0,4,Skejby,0,ukendt,privat,8775.0,2024-11-15,findbolig
+82.0,3,Viby,0,ukendt,privat,9175.0,2025-09-12,findbolig
+40.0,1,Åbyhøj,0,ukendt,privat,5300.0,2024-11-11,findbolig
+48.0,1,Åbyhøj,0,ukendt,privat,6125.0,2025-09-08,findbolig
+64.0,2,Vejlby,0,ukendt,privat,8225.0,2024-11-26,findbolig
+70.0,2,Risskov,1,ukendt,privat,11100.0,2025-03-15,findbolig
+53.0,2,Centrum,0,ukendt,privat,9450.0,2024-11-10,findbolig
+87.0,3,Vejlby,1,ukendt,privat,10600.0,2024-06-24,findbolig
+53.0,2,Aarhus C,1,ukendt,privat,9850.0,2024-06-26,findbolig
+110.0,3,Skejby,1,3,privat,13050.0,2024-07-24,lejebolig_dk
+61.0,3,Skejby,0,1,almen,5475.0,2025-10-13,lejebolig_dk
+56.0,2,Skejby,0,2,privat,7825.0,2024-11-03,lejebolig_dk
+16.0,1,Brabrand,1,2,privat,2200.0,2025-03-18,lejebolig_dk
+68.0,2,Åbyhøj,0,stuen,almen,4475.0,2025-12-22,lejebolig_dk
+60.0,1,Trøjborg,0,3,almen,6325.0,2024-10-09,lejebolig_dk
+55.0,1,Åbyhøj,0,1,privat,7125.0,2025-09-11,lejebolig_dk
+76.0,3,Aarhus C,1,2,almen,8500.0,2025-07-27,lejebolig_dk
+78.0,4,Aarhus C,0,3,privat,14625.0,2026-06-30,lejebolig_dk
+42.0,1,Åbyhøj,0,4+,privat,5200.0,2024-08-25,lejebolig_dk
+47.0,1,Risskov,0,2,privat,6950.0,2025-03-20,lejebolig_dk
+57.0,2,Aarhus C,1,2,almen,6825.0,2024-10-15,lejebolig_dk
+85.0,2,Risskov,1,stuen,almen,6700.0,2026-05-21,lejebolig_dk
+81.0,2,Vejlby,0,stuen,privat,10550.0,2026-01-03,lejebolig_dk
+37.0,1,Åbyhøj,1,3,almen,3000.0,2026-03-24,lejebolig_dk
+41.0,1,Trøjborg,0,1,privat,6200.0,2026-04-11,lejebolig_dk
+86.0,3,Viby,0,2,almen,7025.0,2026-05-04,lejebolig_dk
+106.0,5,Aarhus C,0,1,almen,13675.0,2025-02-26,lejebolig_dk
+67.0,2,Hasle,0,3,almen,5850.0,2025-05-13,lejebolig_dk
+52.0,2,Vejlby,1,1,privat,6750.0,2026-04-04,lejebolig_dk
+94.0,4,Trøjborg,1,3,almen,8600.0,2025-08-16,lejebolig_dk
+61.0,3,Skejby,0,2,almen,5775.0,2026-04-20,lejebolig_dk
+85.0,2,Brabrand,0,3,privat,8525.0,2025-01-07,lejebolig_dk
+105.0,4,Vejlby,0,1,privat,12275.0,2025-05-25,lejebolig_dk
+83.0,4,Vejlby,0,4+,almen,7150.0,2025-08-12,lejebolig_dk
+70.0,2,Skejby,1,2,privat,9425.0,2025-02-16,lejebolig_dk
+86.0,3,Hasle,1,2,privat,10975.0,2025-04-15,lejebolig_dk
+53.0,1,Hasle,1,2,privat,5125.0,2025-03-30,lejebolig_dk
+64.0,2,Centrum,0,1,privat,11500.0,2026-03-05,lejebolig_dk
+54.0,1,Aarhus C,0,3,privat,9825.0,2024-09-12,lejebolig_dk
+63.0,2,Centrum,0,1,privat,11075.0,2024-11-09,lejebolig_dk
+56.0,3,Risskov,0,1,privat,9475.0,2025-06-19,lejebolig_dk
+64.0,3,Centrum,0,4+,privat,10925.0,2024-11-02,lejebolig_dk
+59.0,2,Trøjborg,1,1,privat,8750.0,2026-01-11,lejebolig_dk
+70.0,2,Brabrand,1,3,privat,7050.0,2025-07-29,lejebolig_dk
+70.0,3,Centrum,1,stuen,privat,12275.0,2025-07-22,lejebolig_dk
+75.0,3,Risskov,1,2,privat,10900.0,2026-05-23,lejebolig_dk
+102.0,4,Viby,0,stuen,privat,11725.0,2025-05-21,lejebolig_dk
+31.0,1,Aarhus C,0,1,almen,3700.0,2025-01-01,lejebolig_dk
+99.0,3,Risskov,0,1,privat,15250.0,2026-05-02,lejebolig_dk
+62.0,3,Åbyhøj,0,2,almen,5450.0,2025-08-17,lejebolig_dk
+38.0,1,Viby,1,stuen,privat,4000.0,2025-08-05,lejebolig_dk
+64.0,2,Hasle,0,1,privat,8425.0,2025-01-12,lejebolig_dk
+70.0,3,Centrum,0,3,almen,7550.0,2026-02-02,lejebolig_dk
+94.0,4,Brabrand,1,3,privat,10050.0,2024-11-06,lejebolig_dk
+43.0,2,Trøjborg,0,3,almen,4375.0,2026-05-05,lejebolig_dk
+73.0,2,Aarhus C,0,2,almen,8150.0,2026-07-22,lejebolig_dk
+71.0,3,Centrum,1,3,privat,12900.0,2026-06-20,lejebolig_dk
+28.0,1,Trøjborg,0,2,privat,4175.0,2025-01-02,lejebolig_dk
+40.0,1,Viby,1,1,privat,5000.0,2025-03-08,lejebolig_dk
+82.0,3,Aarhus C,0,3,privat,15100.0,2024-06-14,lejebolig_dk
+85.0,3,Centrum,0,1,privat,15200.0,2024-07-27,lejebolig_dk
+94.0,4,Viby,0,stuen,privat,10350.0,2025-11-03,lejebolig_dk
+81.0,3,Viby,0,4+,privat,9675.0,2026-04-18,lejebolig_dk
+77.0,2,Centrum,1,stuen,almen,9050.0,2024-06-07,lejebolig_dk
+71.0,2,Aarhus C,0,3,almen,8300.0,2026-05-22,lejebolig_dk
+97.0,3,Vejlby,0,1,privat,11250.0,2024-07-18,lejebolig_dk
+48.0,1,Viby,1,4+,almen,3150.0,2026-07-14,lejebolig_dk
+65.0,3,Aarhus C,0,2,privat,11675.0,2025-01-04,lejebolig_dk
+77.0,3,Åbyhøj,0,4+,privat,9950.0,2025-05-19,lejebolig_dk
+30.0,2,Aarhus C,1,2,privat,5125.0,2025-12-12,lejebolig_dk
+99.0,4,Vejlby,0,3,privat,13900.0,2025-03-17,lejebolig_dk
+49.0,2,Aarhus C,1,2,privat,8700.0,2024-07-01,lejebolig_dk
+66.0,2,Aarhus C,0,4+,privat,11850.0,2025-05-05,lejebolig_dk
+120.0,4,Åbyhøj,0,2,privat,14925.0,2025-10-30,lejebolig_dk
+48.0,1,Brabrand,0,4+,privat,4975.0,2026-05-21,lejebolig_dk
+55.0,2,Aarhus C,1,2,almen,7075.0,2024-10-03,lejebolig_dk
+105.0,4,Aarhus C,0,4+,almen,11275.0,2025-01-25,lejebolig_dk
+42.0,1,Centrum,0,stuen,privat,7100.0,2025-05-15,lejebolig_dk
+58.0,2,Viby,0,1,privat,6200.0,2025-01-04,lejebolig_dk
+80.0,3,Centrum,0,4+,privat,13725.0,2024-07-06,lejebolig_dk
+79.0,3,Centrum,1,1,privat,14775.0,2024-12-31,lejebolig_dk
+82.0,3,Trøjborg,0,2,privat,11675.0,2025-08-26,lejebolig_dk
+77.0,4,Hasle,1,2,almen,5775.0,2025-03-09,lejebolig_dk
+100.0,5,Risskov,0,stuen,privat,14175.0,2025-06-12,lejebolig_dk
+92.0,3,Trøjborg,1,stuen,privat,13150.0,2025-06-22,lejebolig_dk
+82.0,3,Trøjborg,1,2,almen,7825.0,2025-10-10,lejebolig_dk
+52.0,2,Åbyhøj,0,1,privat,6475.0,2024-07-25,lejebolig_dk
+51.0,2,Trøjborg,0,4+,privat,7375.0,2024-06-14,lejebolig_dk
+22.0,2,Viby,1,1,privat,2800.0,2026-06-13,lejebolig_dk
+84.0,3,Centrum,0,1,privat,15100.0,2025-06-18,lejebolig_dk
+24.0,2,Åbyhøj,1,stuen,almen,2200.0,2026-04-13,lejebolig_dk
+89.0,4,Aarhus C,0,2,privat,15550.0,2026-02-07,lejebolig_dk
+112.0,4,Hasle,1,4+,privat,11900.0,2026-02-27,lejebolig_dk
+43.0,1,Trøjborg,1,4+,privat,6725.0,2024-11-20,lejebolig_dk
+52.0,2,Brabrand,0,2,privat,4900.0,2025-12-21,lejebolig_dk
+57.0,3,Vejlby,1,2,almen,4950.0,2026-02-26,lejebolig_dk
+88.0,3,Centrum,0,2,privat,15275.0,2026-07-12,lejebolig_dk
+47.0,2,Hasle,0,3,privat,5375.0,2024-06-18,lejebolig_dk
+65.0,3,Risskov,1,stuen,almen,6900.0,2025-02-28,lejebolig_dk
+55.0,3,Vejlby,1,4+,almen,4175.0,2025-03-12,lejebolig_dk
+62.0,3,Viby,1,4+,privat,7825.0,2025-07-07,lejebolig_dk
+99.0,3,Aarhus C,0,2,almen,10425.0,2025-11-14,lejebolig_dk
+45.0,1,Centrum,0,1,privat,7975.0,2025-11-02,lejebolig_dk
+70.0,3,Trøjborg,0,2,privat,11125.0,2024-12-23,lejebolig_dk
+75.0,3,Risskov,1,2,almen,6775.0,2025-09-17,lejebolig_dk
+89.0,3,Risskov,1,1,privat,15050.0,2025-02-15,lejebolig_dk
+38.0,1,Centrum,0,stuen,almen,4450.0,2025-12-18,lejebolig_dk
+95.0,3,Risskov,0,3,almen,7600.0,2025-04-03,lejebolig_dk
+78.0,2,Brabrand,1,4+,privat,8925.0,2024-10-20,lejebolig_dk
+89.0,3,Trøjborg,1,3,almen,9650.0,2026-01-18,lejebolig_dk
+70.0,2,Trøjborg,0,1,privat,10075.0,2024-10-20,lejebolig_dk
+29.0,1,Centrum,1,2,privat,4950.0,2025-08-03,lejebolig_dk
+52.0,2,Centrum,0,1,almen,6025.0,2024-07-13,lejebolig_dk
+88.0,3,Centrum,1,4+,privat,13975.0,2025-02-19,lejebolig_dk
+69.0,3,Hasle,1,1,almen,5400.0,2024-10-18,lejebolig_dk
+67.0,3,Hasle,1,1,almen,5675.0,2025-01-28,lejebolig_dk
+111.0,4,Centrum,0,2,almen,11975.0,2025-05-11,lejebolig_dk
+121.0,5,Trøjborg,0,3,privat,19050.0,2025-06-11,lejebolig_dk
+67.0,3,Åbyhøj,0,2,privat,9900.0,2024-10-26,lejebolig_dk
+114.0,4,Åbyhøj,1,stuen,privat,12700.0,2025-10-12,lejebolig_dk
+20.0,2,Centrum,1,2,privat,3350.0,2025-10-03,lejebolig_dk
+19.0,1,Aarhus C,0,3,privat,3350.0,2025-12-21,lejebolig_dk
+89.0,4,Viby,0,1,privat,10875.0,2024-11-27,lejebolig_dk
+62.0,2,Aarhus C,1,2,almen,7150.0,2025-03-10,lejebolig_dk
+82.0,3,Trøjborg,1,1,privat,11400.0,2026-05-23,lejebolig_dk
+80.0,2,Viby,1,1,almen,4975.0,2024-08-11,lejebolig_dk
+66.0,3,Skejby,1,1,almen,5350.0,2024-06-30,lejebolig_dk
+84.0,3,Trøjborg,0,2,almen,9100.0,2025-04-17,lejebolig_dk
+72.0,2,Viby,1,3,privat,7550.0,2026-07-15,lejebolig_dk
+31.0,1,Brabrand,1,3,privat,3025.0,2026-01-19,lejebolig_dk
+73.0,3,Trøjborg,1,1,privat,11300.0,2024-10-02,lejebolig_dk
+72.0,3,Hasle,1,1,almen,5375.0,2025-11-18,lejebolig_dk
+112.0,4,Åbyhøj,1,1,privat,13350.0,2024-09-02,lejebolig_dk
+41.0,1,Risskov,1,3,privat,6600.0,2026-04-11,lejebolig_dk
+68.0,3,Brabrand,0,3,privat,7525.0,2025-02-09,lejebolig_dk
+58.0,2,Viby,1,3,privat,6250.0,2025-04-10,lejebolig_dk
+65.0,3,Aarhus C,0,1,privat,11575.0,2026-02-06,lejebolig_dk
+108.0,4,Åbyhøj,0,1,almen,9750.0,2026-05-11,lejebolig_dk
+77.0,3,Risskov,1,4+,privat,11575.0,2024-06-29,lejebolig_dk
+57.0,2,Åbyhøj,0,2,privat,7425.0,2025-12-28,lejebolig_dk
+72.0,3,Skejby,0,3,almen,6825.0,2026-04-09,lejebolig_dk
+86.0,3,Risskov,1,1,privat,13800.0,2025-04-04,lejebolig_dk
+44.0,1,Vejlby,0,2,privat,4725.0,2024-08-18,lejebolig_dk
+62.0,2,Centrum,0,1,privat,10600.0,2024-12-23,lejebolig_dk
+105.0,3,Trøjborg,0,2,privat,15075.0,2025-04-13,lejebolig_dk
+89.0,3,Hasle,1,2,privat,10575.0,2025-01-22,lejebolig_dk
+67.0,3,Skejby,0,4+,privat,9550.0,2024-08-18,lejebolig_dk
+57.0,2,Risskov,1,1,almen,6050.0,2026-06-11,lejebolig_dk
+64.0,3,Centrum,1,3,almen,6975.0,2026-07-12,lejebolig_dk
+31.0,2,Vejlby,1,1,privat,3650.0,2026-01-02,lejebolig_dk
+91.0,2,Trøjborg,0,2,almen,8550.0,2025-03-13,lejebolig_dk
+76.0,3,Brabrand,1,4+,almen,4850.0,2025-02-28,lejebolig_dk
+71.0,2,Risskov,0,1,privat,11825.0,2025-07-13,lejebolig_dk
+37.0,2,Hasle,1,2,almen,2975.0,2025-04-18,lejebolig_dk
+51.0,2,Centrum,0,4+,almen,5800.0,2025-04-03,lejebolig_dk
+80.0,3,Viby,0,3,almen,6650.0,2025-04-10,lejebolig_dk
+74.0,3,Hasle,1,4+,privat,8425.0,2026-04-25,lejebolig_dk
+56.0,2,Centrum,1,2,almen,6050.0,2025-01-14,lejebolig_dk
+80.0,3,Trøjborg,0,1,privat,11725.0,2026-07-22,lejebolig_dk
+91.0,2,Skejby,0,stuen,privat,12525.0,2025-07-08,lejebolig_dk
+52.0,1,Trøjborg,1,4+,privat,7975.0,2026-04-12,lejebolig_dk
+55.0,2,Aarhus C,0,stuen,almen,6675.0,2025-03-23,lejebolig_dk
+47.0,1,Viby,1,4+,almen,3575.0,2025-07-14,lejebolig_dk
+40.0,1,Trøjborg,0,4+,privat,5750.0,2026-06-12,lejebolig_dk
+87.0,4,Centrum,1,4+,privat,15625.0,2025-01-27,lejebolig_dk
+80.0,3,Aarhus C,0,3,almen,9075.0,2025-04-25,lejebolig_dk
+76.0,3,Åbyhøj,0,3,almen,7050.0,2024-10-13,lejebolig_dk
+40.0,1,Risskov,0,1,privat,5875.0,2025-05-25,lejebolig_dk
+43.0,2,Viby,1,3,privat,4925.0,2025-10-20,lejebolig_dk
+66.0,2,Centrum,0,2,privat,11675.0,2025-04-30,lejebolig_dk
+58.0,2,Aarhus C,0,2,privat,10775.0,2025-11-15,lejebolig_dk
+71.0,2,Hasle,1,stuen,almen,4875.0,2025-01-14,lejebolig_dk
+51.0,2,Trøjborg,1,stuen,almen,4675.0,2025-12-03,lejebolig_dk
+84.0,4,Hasle,1,3,privat,9575.0,2025-02-10,lejebolig_dk
+111.0,3,Åbyhøj,0,stuen,almen,7825.0,2024-07-25,lejebolig_dk
+105.0,3,Hasle,1,3,almen,8800.0,2024-06-17,lejebolig_dk
+107.0,4,Brabrand,1,2,almen,7750.0,2026-07-05,lejebolig_dk
+70.0,2,Aarhus C,0,stuen,almen,7100.0,2025-12-07,lejebolig_dk
+90.0,3,Centrum,1,2,privat,14975.0,2026-03-31,lejebolig_dk
+59.0,3,Centrum,0,3,almen,7050.0,2025-03-24,lejebolig_dk
+90.0,3,Brabrand,0,4+,almen,5750.0,2026-05-13,lejebolig_dk
+59.0,3,Skejby,0,1,almen,4775.0,2025-01-31,lejebolig_dk
+56.0,2,Hasle,1,1,privat,7150.0,2025-04-27,lejebolig_dk
+53.0,1,Brabrand,1,2,privat,5175.0,2025-01-15,lejebolig_dk
+85.0,3,Viby,1,2,privat,9475.0,2024-09-04,lejebolig_dk
+75.0,3,Hasle,1,1,privat,9250.0,2026-05-11,lejebolig_dk
+72.0,2,Brabrand,1,1,privat,7075.0,2025-05-30,lejebolig_dk
+41.0,1,Vejlby,0,stuen,privat,5025.0,2024-11-21,lejebolig_dk
+71.0,3,Viby,1,2,privat,8275.0,2024-06-30,lejebolig_dk
