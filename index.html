@@ -1,0 +1,1611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Is This Rent Fair? — Aarhus Rental Check</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #E7E1D3;
+    --paper2: #DED5C0;
+    --card: #FBF8F1;
+    --ink: #21262B;
+    --ink-soft: #565049;
+    --ink-faint: #8A8272;
+    --line: #D3CBB8;
+    --line-soft: #E2DBC9;
+    --brick: #A8432D;
+    --brick-soft: #C97E68;
+    --harbor: #3E5C63;
+    --harbor-soft: #8FAEB2;
+    --gold: #B9862F;
+    --gold-soft: #E3C889;
+    --good: #3E6B52;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background:
+      radial-gradient(ellipse 900px 500px at 15% -5%, rgba(168,67,45,0.07), transparent 60%),
+      radial-gradient(ellipse 700px 500px at 100% 10%, rgba(62,92,99,0.08), transparent 55%),
+      var(--paper);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.13  0 0 0 0 0.15  0 0 0 0 0.17  0 0 0 0.045 0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+    z-index: 1;
+  }
+
+  .wrap {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 64px 24px 90px;
+    position: relative;
+    z-index: 2;
+  }
+
+  header.hero {
+    margin-bottom: 56px;
+    max-width: 680px;
+    opacity: 0;
+    animation: riseIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.05s forwards;
+    position: relative;
+  }
+
+  .skyline {
+    position: absolute;
+    right: -60px;
+    top: 4px;
+    width: 340px;
+    height: 90px;
+    opacity: 0.35;
+    pointer-events: none;
+    color: var(--brick);
+  }
+
+  @media (max-width: 880px) { .skyline { display: none; } }
+
+  .aros-ring {
+    position: absolute;
+    right: 6px;
+    top: -6px;
+    width: 54px;
+    height: 54px;
+    opacity: 0.7;
+    pointer-events: none;
+  }
+
+  @media (max-width: 880px) { .aros-ring { display: none; } }
+
+  .trust-line {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 22px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11.5px;
+    color: var(--ink-faint);
+  }
+
+  .trust-line .sep {
+    width: 3px; height: 3px;
+    border-radius: 50%;
+    background: var(--ink-faint);
+  }
+
+  @keyframes riseIn {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--brick);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 6px 14px 6px 10px;
+    background: rgba(168,67,45,0.08);
+    border: 1px solid rgba(168,67,45,0.18);
+    border-radius: 100px;
+  }
+
+  .eyebrow .dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--brick);
+    box-shadow: 0 0 0 3px rgba(168,67,45,0.18);
+  }
+
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: clamp(38px, 5.4vw, 58px);
+    line-height: 1.03;
+    letter-spacing: -0.015em;
+    margin: 0 0 18px;
+  }
+
+  h1 em {
+    font-style: italic;
+    font-weight: 500;
+    color: var(--brick);
+    position: relative;
+  }
+
+  .lede {
+    font-size: 16.5px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    margin: 0;
+    max-width: 520px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+    gap: 24px;
+    align-items: start;
+  }
+
+  @media (max-width: 880px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 34px;
+    box-shadow:
+      0 1px 2px rgba(33,38,43,0.04),
+      0 14px 32px -18px rgba(33,38,43,0.18);
+    opacity: 0;
+    animation: riseIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    transition: background 0.4s ease;
+  }
+
+  .card.result.fair-bg { background: linear-gradient(180deg, rgba(185,134,47,0.06), var(--card) 140px); }
+  .card.result.good-bg { background: linear-gradient(180deg, rgba(62,107,82,0.07), var(--card) 140px); }
+  .card.result.over-bg { background: linear-gradient(180deg, rgba(168,67,45,0.06), var(--card) 140px); }
+
+  .card.form { animation-delay: 0.14s; }
+  .card.result { animation-delay: 0.22s; }
+  .card.chart-card { animation-delay: 0.3s; }
+
+  .card h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 19px;
+    margin: 0 0 26px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--ink);
+  }
+
+  .card h2 .num {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--card);
+    background: var(--brick);
+    width: 22px; height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+  }
+
+  /* --- Verdict banner --- */
+
+  .verdict-banner {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 26px 26px;
+    border-radius: 14px;
+    margin-bottom: 30px;
+    transition: background 0.3s ease;
+  }
+
+  .verdict-banner.fair { background: rgba(185,134,47,0.16); }
+  .verdict-banner.good { background: rgba(62,107,82,0.16); }
+  .verdict-banner.over { background: rgba(168,67,45,0.14); }
+
+  .verdict-icon {
+    flex-shrink: 0;
+    width: 54px; height: 54px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .verdict-icon.fair { background: var(--gold); }
+  .verdict-icon.good { background: var(--good); }
+  .verdict-icon.over { background: var(--brick); }
+
+  .verdict-banner-text { min-width: 0; }
+
+  .verdict-message {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: clamp(24px, 3.2vw, 30px);
+    line-height: 1.15;
+    transition: color 0.3s ease;
+  }
+
+  .verdict-message.fair { color: #8A6A1E; }
+  .verdict-message.good { color: var(--good); }
+  .verdict-message.over { color: var(--brick); }
+
+  .verdict-detail {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13.5px;
+    color: var(--ink-soft);
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .price-per-sqm {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-faint);
+    margin-top: 3px;
+  }
+
+  .interval-line {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--ink-soft);
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line-soft);
+  }
+
+  .interval-line strong { color: var(--ink); font-weight: 600; }
+
+  .normal-zone { cursor: help; }
+
+  .field { margin-bottom: 24px; }
+  .field:last-of-type { margin-bottom: 0; }
+
+  .field label {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 12.5px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: var(--ink-soft);
+    margin-bottom: 10px;
+  }
+
+  .field label .val {
+    font-family: 'IBM Plex Mono', monospace;
+    color: var(--brick);
+    font-size: 13px;
+    font-weight: 500;
+    transition: color 0.15s ease;
+  }
+
+  .slider-track {
+    position: relative;
+    height: 4px;
+    border-radius: 3px;
+    background: var(--line);
+    margin-top: 2px;
+  }
+
+  .slider-fill {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    border-radius: 3px;
+    background: linear-gradient(90deg, var(--gold), var(--brick));
+    transition: width 0.05s linear;
+    pointer-events: none;
+  }
+
+  input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    background: transparent;
+    position: relative;
+    margin: 0;
+    z-index: 2;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px; height: 18px;
+    border-radius: 50%;
+    background: var(--card);
+    cursor: grab;
+    border: 3px solid var(--brick);
+    box-shadow: 0 2px 6px rgba(33,38,43,0.25);
+    margin-top: -7px;
+    transition: transform 0.12s ease;
+  }
+
+  input[type="range"]:active::-webkit-slider-thumb { transform: scale(1.12); cursor: grabbing; }
+  input[type="range"]::-webkit-slider-runnable-track { height: 4px; background: transparent; }
+
+  input[type="range"]::-moz-range-thumb {
+    width: 18px; height: 18px;
+    border-radius: 50%;
+    background: var(--card);
+    cursor: grab;
+    border: 3px solid var(--brick);
+    box-shadow: 0 2px 6px rgba(33,38,43,0.25);
+  }
+
+  select, input[type="number"] {
+    width: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    color: var(--ink);
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 11px 13px;
+    outline: none;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  input[type="number"] { -moz-appearance: textfield; }
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23565049' stroke-width='1.4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    padding-right: 34px;
+  }
+
+  select:focus, input[type="number"]:focus {
+    border-color: var(--brick);
+    box-shadow: 0 0 0 4px rgba(168,67,45,0.12);
+  }
+
+  .toggle-row {
+    display: flex;
+    gap: 8px;
+    background: var(--paper2);
+    padding: 4px;
+    border-radius: 9px;
+  }
+
+  .toggle-btn {
+    flex: 1;
+    padding: 9px 8px;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    background: transparent;
+    color: var(--ink-soft);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.18s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .toggle-btn .ripple {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+    transform: scale(0);
+    animation: rippleAnim 0.5s ease-out;
+    pointer-events: none;
+  }
+
+  @keyframes rippleAnim {
+    to { transform: scale(3); opacity: 0; }
+  }
+
+  .toggle-btn.active {
+    background: var(--ink);
+    color: var(--card);
+    box-shadow: 0 2px 8px rgba(33,38,43,0.22);
+  }
+
+  .toggle-btn[data-tip] { position: relative; }
+
+  .toggle-btn[data-tip]::after {
+    content: attr(data-tip);
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%) translateY(4px);
+    width: 200px;
+    padding: 10px 12px;
+    background: var(--ink);
+    color: var(--card);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 11.5px;
+    font-weight: 400;
+    line-height: 1.45;
+    border-radius: 8px;
+    text-align: left;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.18s ease, transform 0.18s ease;
+    z-index: 10;
+    box-shadow: 0 8px 20px rgba(33,38,43,0.25);
+  }
+
+  .toggle-btn[data-tip]::before {
+    content: "";
+    position: absolute;
+    bottom: calc(100% + 4px);
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: var(--ink);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.18s ease;
+    z-index: 10;
+  }
+
+  .toggle-btn[data-tip]:hover::after,
+  .toggle-btn[data-tip]:focus-visible::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  .toggle-btn[data-tip]:hover::before,
+  .toggle-btn[data-tip]:focus-visible::before {
+    opacity: 1;
+  }
+
+  .price-input { position: relative; }
+
+  .price-input::after {
+    content: "kr / mo";
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--ink-faint);
+    pointer-events: none;
+  }
+
+  .price-input input {
+    padding-right: 62px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .result-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card-watermark {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 160px;
+    height: 160px;
+    opacity: 0.05;
+    pointer-events: none;
+    color: var(--ink);
+    transition: color 0.4s ease;
+  }
+
+  .card.result.fair-bg .card-watermark { color: var(--gold); opacity: 0.09; }
+  .card.result.good-bg .card-watermark { color: var(--good); opacity: 0.09; }
+  .card.result.over-bg .card-watermark { color: var(--brick); opacity: 0.08; }
+
+  .figure-glow {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    top: 50%; left: 88px;
+    transform: translate(-50%, -50%);
+    filter: blur(30px);
+    opacity: 0;
+    transition: opacity 0.5s ease, background 0.4s ease;
+    pointer-events: none;
+  }
+
+  .figure-glow.show { opacity: 0.55; }
+  .figure-glow.fair { background: radial-gradient(circle, var(--gold-soft), transparent 70%); }
+  .figure-glow.good { background: radial-gradient(circle, #A9C4AF, transparent 70%); }
+  .figure-glow.over { background: radial-gradient(circle, var(--brick-soft), transparent 70%); }
+
+  .verdict-zone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    padding: 4px 0 26px;
+    position: relative;
+    opacity: 0;
+    animation: riseIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.32s forwards;
+  }
+
+  @media (max-width: 460px) {
+    .verdict-zone { flex-direction: column; gap: 16px; }
+  }
+
+  .stamp-wrap {
+    position: relative;
+    width: 176px;
+    height: 176px;
+    flex-shrink: 0;
+    perspective: 500px;
+    z-index: 1;
+  }
+
+  .stamp-inner {
+    width: 100%;
+    height: 100%;
+    filter: url(#grunge);
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    transform-style: preserve-3d;
+  }
+
+  .stamp {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid currentColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transform: rotate(-9deg) scale(0.82);
+    opacity: 0;
+    transition: transform 0.55s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.35s ease, color 0.2s ease;
+    position: relative;
+    box-shadow: 0 18px 30px -14px rgba(33,38,43,0.35);
+  }
+
+  .stamp.show { transform: rotate(-9deg) scale(1); opacity: 0.92; }
+
+  .stamp::before {
+    content: "";
+    position: absolute;
+    inset: 9px;
+    border: 1.5px solid currentColor;
+    border-radius: 50%;
+    opacity: 0.6;
+  }
+
+  .stamp .stamp-label {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    max-width: 108px;
+  }
+
+  .stamp .stamp-sub {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+  }
+
+  .stamp.fair { color: var(--gold); }
+
+  .ribbon-label {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 13px;
+    fill: #FFFFFF;
+    text-anchor: middle;
+  }
+
+  .burst-label {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 13px;
+    fill: var(--brick);
+    text-anchor: middle;
+  }
+
+  .burst-wrap {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0.7) rotate(4deg);
+    transition: opacity 0.4s ease, transform 0.55s cubic-bezier(0.34, 1.56, 0.64, 1);
+    pointer-events: none;
+  }
+
+  .burst-wrap.show { opacity: 1; transform: scale(1) rotate(4deg); }
+  .burst-wrap svg { width: 176px; height: 176px; overflow: visible; }
+
+  .ribbon-wrap {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0.7) rotate(-6deg);
+    transition: opacity 0.4s ease, transform 0.55s cubic-bezier(0.34, 1.56, 0.64, 1);
+    pointer-events: none;
+  }
+
+  .ribbon-wrap.show { opacity: 1; transform: scale(1) rotate(-6deg); }
+  .ribbon-wrap svg { width: 176px; height: 176px; overflow: visible; }
+
+  .ribbon-shine {
+    transform-origin: center;
+    animation: shineSweep 2.6s ease-in-out infinite;
+  }
+
+  @keyframes shineSweep {
+    0%, 100% { opacity: 0.15; }
+    50% { opacity: 0.5; }
+  }
+
+  .sparkle {
+    transform-origin: center;
+    animation: twinkle 1.8s ease-in-out infinite;
+  }
+  .sparkle:nth-child(1) { animation-delay: 0s; }
+  .sparkle:nth-child(2) { animation-delay: 0.4s; }
+  .sparkle:nth-child(3) { animation-delay: 0.9s; }
+
+  @keyframes twinkle {
+    0%, 100% { opacity: 0.25; transform: scale(0.6); }
+    50% { opacity: 1; transform: scale(1); }
+  }
+
+  .result-figures { flex: 1; min-width: 0; position: relative; z-index: 1; }
+
+  .compare-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 6px;
+  }
+
+  .compare-col { flex: 1; min-width: 0; }
+
+  .compare-col .compare-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-faint);
+    margin-bottom: 4px;
+  }
+
+  .compare-col .compare-num {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: clamp(24px, 2.9vw, 30px);
+    line-height: 1.05;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .compare-col.asking .compare-num { color: var(--harbor); }
+
+  .predicted-price {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: clamp(24px, 2.9vw, 30px);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+    border-radius: 6px;
+    transition: background 0.5s ease;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .predicted-price.flash {
+    background: rgba(185,134,47,0.18);
+  }
+
+  .range-block {
+    border-top: 1px solid var(--line-soft);
+    padding-top: 24px;
+    opacity: 0;
+    animation: riseIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.4s forwards;
+  }
+
+  .range-block .range-label {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-faint);
+    margin-bottom: 12px;
+  }
+
+  .range-track {
+    position: relative;
+    height: 10px;
+    background: linear-gradient(90deg, var(--harbor-soft), var(--gold-soft) 45%, var(--gold-soft) 55%, var(--brick-soft));
+    border-radius: 6px;
+    margin-top: 14px;
+    margin-bottom: 24px;
+    box-shadow: inset 0 1px 2px rgba(33,38,43,0.12);
+  }
+
+  .range-ticks {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2px;
+  }
+
+  .range-ticks span {
+    width: 1px;
+    height: 100%;
+    background: rgba(255,255,255,0.4);
+  }
+
+  .range-marker {
+    position: absolute;
+    top: -7px;
+    width: 4px;
+    height: 24px;
+    background: var(--ink);
+    border-radius: 2px;
+    transform: translateX(-2px);
+    transition: left 0.4s cubic-bezier(0.16, 1, 0.3, 1), background 0.3s ease;
+    box-shadow: 0 0 0 3px var(--card), 0 2px 6px rgba(33,38,43,0.3);
+  }
+
+  .range-marker::after {
+    content: "";
+    position: absolute;
+    top: -4px; left: -4px;
+    width: 12px; height: 12px;
+    border-radius: 50%;
+    background: inherit;
+    opacity: 0.5;
+    animation: markerPulse 1.8s ease-out infinite;
+  }
+
+  @keyframes markerPulse {
+    0% { transform: scale(0.6); opacity: 0.5; }
+    100% { transform: scale(1.9); opacity: 0; }
+  }
+
+  .range-marker.fair { background: var(--gold); }
+  .range-marker.good { background: var(--good); }
+  .range-marker.over { background: var(--brick); }
+
+  .normal-zone {
+    position: absolute;
+    top: -3px;
+    height: 16px;
+    background: rgba(255,255,255,0.55);
+    border: 1.5px solid rgba(255,255,255,0.85);
+    border-radius: 5px;
+    transition: left 0.4s ease, width 0.4s ease;
+    box-shadow: inset 0 1px 2px rgba(33,38,43,0.08);
+  }
+
+  .normal-zone .zone-tag {
+    position: absolute;
+    bottom: -19px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9.5px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    white-space: nowrap;
+  }
+
+  /* --- Area map (replaces bar chart) --- */
+
+  .chart-card { margin-top: 24px; }
+
+  .chart-intro {
+    font-size: 14px;
+    color: var(--ink-soft);
+    line-height: 1.55;
+    margin: -6px 0 24px;
+    max-width: 560px;
+  }
+
+  .chart-intro strong { color: var(--ink); }
+
+  .map-wrap {
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+    gap: 28px;
+    align-items: center;
+  }
+
+  @media (max-width: 720px) {
+    .map-wrap { grid-template-columns: 1fr; }
+  }
+
+  .map-svg-wrap { width: 100%; }
+  .map-svg-wrap svg { width: 100%; height: auto; display: block; }
+
+  .area-dot {
+    cursor: pointer;
+    transition: r 0.3s ease, stroke-width 0.2s ease;
+  }
+  .area-dot:hover { stroke-width: 3; }
+
+  .area-dot-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 8.5px;
+    font-weight: 500;
+    fill: var(--ink-soft);
+    text-anchor: middle;
+    pointer-events: none;
+  }
+
+  .area-dot-label.selected { fill: var(--ink); font-weight: 600; }
+
+  .map-coast { fill: rgba(143,174,178,0.25); }
+
+  .map-legend {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .legend-scale {
+    height: 10px;
+    border-radius: 6px;
+    background: linear-gradient(90deg, var(--harbor-soft), var(--gold-soft), var(--brick-soft));
+  }
+
+  .legend-labels {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    color: var(--ink-faint);
+  }
+
+  .map-selected-info {
+    margin-top: 8px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line-soft);
+  }
+
+  .map-selected-info .label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-faint);
+    margin-bottom: 4px;
+  }
+
+  .map-selected-info .value {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1.3;
+    color: var(--ink);
+  }
+
+  .map-hint {
+    font-size: 12px;
+    color: var(--ink-faint);
+    margin-top: 10px;
+  }
+
+  .footnote {
+    margin-top: 44px;
+    padding: 20px 24px;
+    border: 1px solid var(--line-soft);
+    border-radius: 10px;
+    background: rgba(251,248,241,0.5);
+    font-size: 12.5px;
+    line-height: 1.65;
+    color: var(--ink-soft);
+    max-width: 760px;
+    opacity: 0;
+    animation: riseIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.32s forwards;
+  }
+
+  .how-it-works {
+    margin-top: 14px;
+    max-width: 760px;
+  }
+
+  .how-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: none;
+    border: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--harbor);
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .how-btn .chev {
+    transition: transform 0.2s ease;
+    font-size: 10px;
+  }
+
+  .how-btn.open .chev { transform: rotate(90deg); }
+
+  .how-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease, opacity 0.3s ease, margin-top 0.3s ease;
+    opacity: 0;
+    font-size: 12.5px;
+    line-height: 1.65;
+    color: var(--ink-soft);
+  }
+
+  .how-content.open {
+    max-height: 240px;
+    opacity: 1;
+    margin-top: 12px;
+  }
+
+  .how-content p { margin: 0 0 10px; }
+  .how-content p:last-child { margin-bottom: 0; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .stamp, .card, header.hero, .footnote, .range-marker { transition: none; animation: none; opacity: 1; }
+  }
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute">
+  <filter id="grunge">
+    <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" result="noise" seed="7"/>
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="7" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+</svg>
+
+<div class="wrap">
+
+  <header class="hero">
+    <svg class="skyline" viewBox="0 0 340 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 90 L0 58 L14 58 L14 40 L28 40 L28 58 L46 58 L46 30 L58 18 L70 30 L70 58 L92 58 L92 44 L104 44 L104 58 L128 58 L128 22 L140 10 L152 22 L152 58 L176 58 L176 48 L188 48 L188 58 L210 58 L210 34 L222 24 L234 34 L234 58 L256 58 L256 42 L270 42 L270 58 L292 58 L292 16 L304 4 L316 16 L316 58 L340 58 L340 90 Z" fill="currentColor"/>
+    </svg>
+    <svg class="aros-ring" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="arosGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="var(--brick)"/>
+          <stop offset="50%" stop-color="var(--gold)"/>
+          <stop offset="100%" stop-color="var(--harbor)"/>
+        </linearGradient>
+      </defs>
+      <circle cx="30" cy="30" r="24" fill="none" stroke="url(#arosGrad)" stroke-width="5"/>
+      <circle cx="30" cy="30" r="10" fill="var(--paper)" stroke="var(--ink)" stroke-width="1" opacity="0.3"/>
+    </svg>
+    <div class="eyebrow"><span class="dot"></span>Aarhus · Rental Price Check</div>
+    <h1>Is This Rent <em>Fair?</em></h1>
+    <p class="lede">Found a place you're considering? Enter the details below and see right away whether the price makes sense, before you sign anything.</p>
+    <div class="trust-line">Based on comparable listings in Aarhus</div>
+  </header>
+
+  <div class="grid">
+
+    <div class="card form">
+      <h2><span class="num">1</span>Apartment details</h2>
+
+      <div class="field">
+        <label>Rent in the listing <span class="val" id="askingVal">8,500 kr</span></label>
+        <div class="slider-track"><div class="slider-fill" id="askingFill"></div></div>
+        <input type="range" id="askingSlider" min="2000" max="20000" value="8500" step="50">
+      </div>
+
+      <div class="field">
+        <label>Size <span class="val" id="sizeVal">68 m²</span></label>
+        <div class="slider-track"><div class="slider-fill" id="sizeFill"></div></div>
+        <input type="range" id="size" min="16" max="165" value="68" step="1">
+      </div>
+
+      <div class="field">
+        <label>Rooms <span class="val" id="roomsVal">3</span></label>
+        <div class="slider-track"><div class="slider-fill" id="roomsFill"></div></div>
+        <input type="range" id="rooms" min="1" max="6" value="3" step="1">
+      </div>
+
+      <div class="field">
+        <label>Area</label>
+        <select id="area"></select>
+      </div>
+
+      <div class="field">
+        <label>Housing type</label>
+        <div class="toggle-row" id="housingType">
+          <button type="button" class="toggle-btn active" data-val="privat" data-tip="Owned by a private landlord. Rent follows the market, within legal limits.">Private</button>
+          <button type="button" class="toggle-btn" data-val="almen" data-tip="Owned by a non-profit housing association. Rent is capped by law to cover costs only, not profit.">Non-profit</button>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Pets</label>
+        <div class="toggle-row" id="petsType">
+          <button type="button" class="toggle-btn active" data-val="0">Not allowed</button>
+          <button type="button" class="toggle-btn" data-val="1">Allowed</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="card result result-card">
+      <svg class="card-watermark" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="35" cy="35" r="18" stroke="currentColor" stroke-width="6"/>
+        <line x1="47" y1="47" x2="88" y2="88" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+        <line x1="72" y1="72" x2="82" y2="62" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+        <line x1="80" y1="80" x2="90" y2="70" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+      </svg>
+      <h2><span class="num">2</span>Verdict</h2>
+
+      <div class="verdict-banner fair" id="verdictBanner">
+        <div class="verdict-icon fair" id="verdictIcon">≈</div>
+        <div class="verdict-banner-text">
+          <div class="verdict-message fair" id="verdictMessage">In line with the market</div>
+        </div>
+      </div>
+
+      <div class="verdict-zone">
+        <div class="figure-glow fair show" id="figureGlow"></div>
+        <div class="stamp-wrap" id="stampWrap">
+          <div class="stamp-inner" id="stampInner">
+            <div class="stamp fair show" id="stamp">
+              <span class="stamp-label" id="stampLabel">Fair price</span>
+              <span class="stamp-sub" id="stampSub">± 0%</span>
+            </div>
+          </div>
+          <div class="ribbon-wrap" id="ribbonWrap">
+            <svg viewBox="0 0 148 148">
+              <defs>
+                <linearGradient id="ribbonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#4F8768"/>
+                  <stop offset="100%" stop-color="#2F5A44"/>
+                </linearGradient>
+              </defs>
+              <path d="M60 92 L48 138 L67 128 L74 138 L74 96 Z" fill="#2F5A44"/>
+              <path d="M88 92 L100 138 L81 128 L74 138 L74 96 Z" fill="#3C6C53"/>
+              <circle cx="74" cy="66" r="46" fill="url(#ribbonGrad)"/>
+              <circle cx="74" cy="66" r="46" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+              <circle cx="74" cy="66" r="37" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="1" stroke-dasharray="2 4"/>
+              <path class="ribbon-shine" d="M40 40 Q74 20 108 40 Q90 66 74 66 Q58 66 40 40 Z" fill="rgba(255,255,255,0.5)"/>
+              <text x="74" y="61" class="ribbon-label" id="ribbonLabel1">GREAT</text>
+              <text x="74" y="76" class="ribbon-label" id="ribbonLabel2">DEAL</text>
+              <path class="sparkle" d="M116 28 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3 Z" fill="#E3C889"/>
+              <path class="sparkle" d="M26 34 l2.4 5.6 5.6 2.4 -5.6 2.4 -2.4 5.6 -2.4 -5.6 -5.6 -2.4 5.6 -2.4 Z" fill="#E3C889"/>
+              <path class="sparkle" d="M120 84 l2 4.6 4.6 2 -4.6 2 -2 4.6 -2 -4.6 -4.6 -2 4.6 -2 Z" fill="#E3C889"/>
+            </svg>
+          </div>
+          <div class="burst-wrap" id="burstWrap">
+            <svg viewBox="0 0 148 148">
+              <defs>
+                <linearGradient id="burstGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#C05A3E"/>
+                  <stop offset="100%" stop-color="#8A3623"/>
+                </linearGradient>
+              </defs>
+              <polygon class="burst-spikes" id="burstSpikes" points="74.0,16.0 81.2,27.0 93.0,21.1 93.8,34.2 106.9,35.0 101.0,46.8 112.0,54.0 101.0,61.2 106.9,73.0 93.8,73.8 93.0,86.9 81.2,81.0 74.0,92.0 66.8,81.0 55.0,86.9 54.2,73.8 41.1,73.0 47.0,61.2 36.0,54.0 47.0,46.8 41.1,35.0 54.2,34.2 55.0,21.1 66.8,27.0" fill="url(#burstGrad)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+              <rect x="70.5" y="30" width="7" height="24" rx="3.5" fill="#FFFFFF"/>
+              <circle cx="74" cy="62" r="4" fill="#FFFFFF"/>
+              <text x="74" y="122" class="burst-label" id="burstLabel1">TOO</text>
+              <text x="74" y="138" class="burst-label" id="burstLabel2">PRICEY</text>
+            </svg>
+          </div>
+        </div>
+        <div class="result-figures">
+          <div class="compare-row">
+            <div class="compare-col asking">
+              <div class="compare-label">This listing</div>
+              <div class="compare-num" id="askingDisplay">8,500 kr</div>
+              <div class="price-per-sqm" id="askingPerSqm">125 kr/m²</div>
+            </div>
+            <div class="compare-col">
+              <div class="compare-label">Expected</div>
+              <div class="predicted-price" id="predictedPriceWrap">≈ <span id="predictedPrice">8,400</span></div>
+              <div class="price-per-sqm" id="predictedPerSqm">124 kr/m²</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="range-block">
+        <div class="range-label">
+          <span>Below market</span>
+          <span>Above market</span>
+        </div>
+        <div class="range-track">
+          <div class="range-ticks"><span></span><span></span><span></span><span></span><span></span></div>
+          <div class="normal-zone" id="normalZone" title="This band reflects the model's typical margin of error, listings inside it are considered fairly priced."><span class="zone-tag">normal range</span></div>
+          <div class="range-marker fair" id="rangeMarker" style="left:50%"></div>
+        </div>
+        <div class="interval-line" id="intervalLine">Typically <strong>7,600–9,200 kr</strong> for comparable listings.</div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="card chart-card">
+    <h2><span class="num">3</span>Where in Aarhus is it cheaper?</h2>
+    <p class="chart-intro">Expected rent for <strong>this exact apartment</strong> (same size, rooms, and housing type) across Aarhus. Darker means pricier. Click an area to compare.</p>
+    <div class="map-wrap">
+      <div class="map-svg-wrap">
+        <svg viewBox="0 0 400 300" id="mapSvg">
+          <path class="map-coast" d="M400 0 L400 300 L310 300 Q270 230 300 160 Q330 90 280 20 L280 0 Z"/>
+          <g id="mapDots"></g>
+        </svg>
+      </div>
+      <div class="map-legend">
+        <div class="legend-scale"></div>
+        <div class="legend-labels"><span>Cheapest</span><span>Priciest</span></div>
+        <div class="map-selected-info">
+          <div class="label" id="mapSelectedLabel">Trøjborg</div>
+          <div class="value" id="mapSelectedValue">Between 7,600 and 9,200 kr</div>
+        </div>
+        <p class="map-hint">Circle size shows how far the price is from the city-wide average.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="how-it-works">
+    <button class="how-btn" id="howBtn" type="button">
+      <span class="chev">▸</span> How does this work?
+    </button>
+    <div class="how-content" id="howContent">
+      <p>This tool estimates a fair rent using a simplified version of a model trained on 973 rental listings across Aarhus. It looks at your apartment's size, room count, area and housing type to work out what a comparable listing typically costs.</p>
+      <p>The listings behind it are calibrated to match real Aarhus market statistics, average rent, price per square metre, and the gap between private and non-profit housing, rather than pulled from live ads. The result is an estimate, not a guarantee, so it's a starting point for judging a price, not the final word on it.</p>
+    </div>
+  </div>
+
+  <p class="footnote">
+    This estimate is indicative and should not be the sole basis for a decision to rent an apartment.
+  </p>
+
+</div>
+
+<script>
+  // Linear approximation of the project's trained price model, used here
+  // as an interpretable client-side proxy to the primary XGBoost model.
+  // Floor is fixed at 2 (the dataset median) since it is not exposed as
+  // a user input in this tool.
+  const FIXED_FLOOR = 2;
+
+  const MODEL = {
+    intercept: 5653.96,
+    size_m2: 113.37,
+    rooms: 303.41,
+    pets_allowed: -200.01,
+    befolkningstal: -0.21,
+    andel_studerende_pct: -43.29,
+    afstand_til_centrum_km: -489.14,
+    is_almen: -3153.23,
+    floor_num: 112.03,
+    area: {
+      "Aarhus C": 0, "Brabrand": -413.23, "Centrum": -548.97, "Hasle": -1178.57,
+      "Risskov": 525.38, "Skejby": 285.19, "Trøjborg": 7.95, "Vejlby": -135.97,
+      "Viby": 875.92, "Åbyhøj": -1037.58
+    }
+  };
+
+  const AREA_CONTEXT = {
+    "Aarhus C":  { pop: 8200,  student: 18, dist: 0.5, x: 220, y: 155 },
+    "Centrum":   { pop: 6100,  student: 22, dist: 0.2, x: 200, y: 175 },
+    "Risskov":   { pop: 9400,  student: 12, dist: 4.8, x: 285, y: 75 },
+    "Trøjborg":  { pop: 7300,  student: 45, dist: 2.1, x: 235, y: 105 },
+    "Åbyhøj":    { pop: 11200, student: 15, dist: 3.5, x: 130, y: 165 },
+    "Vejlby":    { pop: 9800,  student: 20, dist: 5.2, x: 250, y: 55 },
+    "Skejby":    { pop: 6700,  student: 8,  dist: 7.8, x: 215, y: 20 },
+    "Viby":      { pop: 15600, student: 28, dist: 6.0, x: 195, y: 255 },
+    "Hasle":     { pop: 10300, student: 19, dist: 3.9, x: 155, y: 110 },
+    "Brabrand":  { pop: 13100, student: 24, dist: 5.5, x: 95,  y: 200 }
+  };
+
+  const MAE = 794;
+
+  const areaSelect = document.getElementById('area');
+  Object.keys(AREA_CONTEXT).forEach(name => {
+    const opt = document.createElement('option');
+    opt.value = name;
+    opt.textContent = name;
+    if (name === "Trøjborg") opt.selected = true;
+    areaSelect.appendChild(opt);
+  });
+
+  let state = { size: 68, rooms: 3, area: "Trøjborg", housing: "privat", pets: 0, asking: 8500 };
+
+  const sizeInput = document.getElementById('size');
+  const roomsInput = document.getElementById('rooms');
+  const askingSlider = document.getElementById('askingSlider');
+  const askingFill = document.getElementById('askingFill');
+  const askingVal = document.getElementById('askingVal');
+  const sizeVal = document.getElementById('sizeVal');
+  const roomsVal = document.getElementById('roomsVal');
+  const sizeFill = document.getElementById('sizeFill');
+  const roomsFill = document.getElementById('roomsFill');
+
+  function updateFill(input, fillEl) {
+    const pct = ((input.value - input.min) / (input.max - input.min)) * 100;
+    fillEl.style.width = pct + '%';
+  }
+
+  const housingButtons = document.querySelectorAll('#housingType .toggle-btn');
+  const petsButtons = document.querySelectorAll('#petsType .toggle-btn');
+
+  function spawnRipple(btn, evt) {
+    const rect = btn.getBoundingClientRect();
+    const ripple = document.createElement('span');
+    ripple.className = 'ripple';
+    const size = Math.max(rect.width, rect.height) * 1.4;
+    ripple.style.width = ripple.style.height = size + 'px';
+    ripple.style.left = ((evt.clientX ?? rect.left + rect.width/2) - rect.left - size/2) + 'px';
+    ripple.style.top = ((evt.clientY ?? rect.top + rect.height/2) - rect.top - size/2) + 'px';
+    btn.appendChild(ripple);
+    setTimeout(() => ripple.remove(), 500);
+  }
+
+  function setupToggle(buttons, key, isNumeric) {
+    buttons.forEach(btn => {
+      btn.addEventListener('click', (evt) => {
+        spawnRipple(btn, evt);
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        state[key] = isNumeric ? Number(btn.dataset.val) : btn.dataset.val;
+        compute();
+      });
+    });
+  }
+  setupToggle(housingButtons, 'housing', false);
+  setupToggle(petsButtons, 'pets', true);
+
+  sizeInput.addEventListener('input', e => {
+    state.size = Number(e.target.value);
+    sizeVal.textContent = state.size + ' m²';
+    updateFill(sizeInput, sizeFill);
+    compute();
+  });
+  roomsInput.addEventListener('input', e => {
+    state.rooms = Number(e.target.value);
+    roomsVal.textContent = state.rooms;
+    updateFill(roomsInput, roomsFill);
+    compute();
+  });
+  areaSelect.addEventListener('change', e => { state.area = e.target.value; compute(); });
+  askingSlider.addEventListener('input', e => {
+    state.asking = Number(e.target.value);
+    askingVal.textContent = fmt(state.asking) + ' kr';
+    updateFill(askingSlider, askingFill);
+    compute();
+  });
+
+  function predict() {
+    const ctx = AREA_CONTEXT[state.area];
+    let pred = MODEL.intercept
+      + MODEL.size_m2 * state.size
+      + MODEL.rooms * state.rooms
+      + MODEL.pets_allowed * state.pets
+      + MODEL.befolkningstal * ctx.pop
+      + MODEL.andel_studerende_pct * ctx.student
+      + MODEL.afstand_til_centrum_km * ctx.dist
+      + MODEL.is_almen * (state.housing === 'almen' ? 1 : 0)
+      + MODEL.floor_num * FIXED_FLOOR
+      + MODEL.area[state.area];
+    return Math.max(pred, 1500);
+  }
+
+  const stamp = document.getElementById('stamp');
+  const stampLabel = document.getElementById('stampLabel');
+  const stampSub = document.getElementById('stampSub');
+  const stampWrap = document.getElementById('stampWrap');
+  const stampInner = document.getElementById('stampInner');
+  const figureGlow = document.getElementById('figureGlow');
+  const ribbonWrap = document.getElementById('ribbonWrap');
+  const burstWrap = document.getElementById('burstWrap');
+  const resultCard = document.querySelector('.card.result');
+  const predictedPriceEl = document.getElementById('predictedPrice');
+  const verdictBanner = document.getElementById('verdictBanner');
+  const verdictIcon = document.getElementById('verdictIcon');
+  const verdictMessage = document.getElementById('verdictMessage');
+  const askingDisplay = document.getElementById('askingDisplay');
+  const askingPerSqm = document.getElementById('askingPerSqm');
+  const predictedPerSqm = document.getElementById('predictedPerSqm');
+  const intervalLine = document.getElementById('intervalLine');
+  const rangeMarker = document.getElementById('rangeMarker');
+  const normalZone = document.getElementById('normalZone');
+  const burstLabel1 = document.getElementById('burstLabel1');
+  const burstLabel2 = document.getElementById('burstLabel2');
+  const burstSpikes = document.getElementById('burstSpikes');
+  const ribbonLabel1 = document.getElementById('ribbonLabel1');
+  const ribbonLabel2 = document.getElementById('ribbonLabel2');
+  const mapDots = document.getElementById('mapDots');
+  const mapSelectedLabel = document.getElementById('mapSelectedLabel');
+  const mapSelectedValue = document.getElementById('mapSelectedValue');
+
+  stampWrap.addEventListener('mousemove', (e) => {
+    const rect = stampWrap.getBoundingClientRect();
+    const x = (e.clientX - rect.left) / rect.width - 0.5;
+    const y = (e.clientY - rect.top) / rect.height - 0.5;
+    stampInner.style.transform = `rotateY(${x * 22}deg) rotateX(${-y * 22}deg)`;
+  });
+  stampWrap.addEventListener('mouseleave', () => {
+    stampInner.style.transform = 'rotateY(0deg) rotateX(0deg)';
+  });
+
+  function fmt(n) { return Math.round(n).toLocaleString('en-GB'); }
+
+  let displayedPrice = 8400;
+  function animateNumber(target) {
+    const start = displayedPrice;
+    const duration = 420;
+    const startTime = performance.now();
+    function step(now) {
+      const t = Math.min((now - startTime) / duration, 1);
+      const eased = 1 - Math.pow(1 - t, 3);
+      const current = start + (target - start) * eased;
+      predictedPriceEl.textContent = fmt(current);
+      if (t < 1) requestAnimationFrame(step);
+      else displayedPrice = target;
+    }
+    requestAnimationFrame(step);
+  }
+
+  function predictForArea(areaName) {
+    const ctx = AREA_CONTEXT[areaName];
+    let pred = MODEL.intercept
+      + MODEL.size_m2 * state.size
+      + MODEL.rooms * state.rooms
+      + MODEL.pets_allowed * state.pets
+      + MODEL.befolkningstal * ctx.pop
+      + MODEL.andel_studerende_pct * ctx.student
+      + MODEL.afstand_til_centrum_km * ctx.dist
+      + MODEL.is_almen * (state.housing === 'almen' ? 1 : 0)
+      + MODEL.floor_num * FIXED_FLOOR
+      + MODEL.area[areaName];
+    return Math.max(pred, 1500);
+  }
+
+  function colorForRatio(t) {
+    // t: 0 (cheapest) -> 1 (priciest), interpolate harbor -> gold -> brick
+    const stops = [
+      { p: 0,   c: [143, 174, 178] }, // harbor-soft
+      { p: 0.5, c: [227, 200, 137] }, // gold-soft
+      { p: 1,   c: [201, 126, 104] }  // brick-soft
+    ];
+    let a = stops[0], b = stops[1];
+    if (t > 0.5) { a = stops[1]; b = stops[2]; }
+    const localT = a.p === 0 ? t / 0.5 : (t - 0.5) / 0.5;
+    const c = a.c.map((v, i) => Math.round(v + (b.c[i] - v) * localT));
+    return `rgb(${c[0]},${c[1]},${c[2]})`;
+  }
+
+  function renderMap() {
+    const rows = Object.keys(AREA_CONTEXT).map(name => ({
+      name, value: predictForArea(name), ...AREA_CONTEXT[name]
+    }));
+    const values = rows.map(r => r.value);
+    const minVal = Math.min(...values);
+    const maxVal = Math.max(...values);
+    const avg = values.reduce((a, b) => a + b, 0) / values.length;
+    const maxDevFromAvg = Math.max(...values.map(v => Math.abs(v - avg)));
+
+    mapDots.innerHTML = '';
+    rows.forEach(r => {
+      const t = maxVal === minVal ? 0.5 : (r.value - minVal) / (maxVal - minVal);
+      const color = colorForRatio(t);
+      const isSelected = r.name === state.area;
+      const devRatio = maxDevFromAvg === 0 ? 0 : Math.abs(r.value - avg) / maxDevFromAvg;
+      const radius = 10 + devRatio * 9;
+
+      const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+
+      if (isSelected) {
+        const ring = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        ring.setAttribute('cx', r.x);
+        ring.setAttribute('cy', r.y);
+        ring.setAttribute('r', radius + 6);
+        ring.setAttribute('fill', 'none');
+        ring.setAttribute('stroke', '#21262B');
+        ring.setAttribute('stroke-width', '1.5');
+        ring.setAttribute('stroke-dasharray', '3 3');
+        g.appendChild(ring);
+      }
+
+      const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      circle.setAttribute('cx', r.x);
+      circle.setAttribute('cy', r.y);
+      circle.setAttribute('r', radius);
+      circle.setAttribute('fill', color);
+      circle.setAttribute('stroke', isSelected ? '#21262B' : '#FBF8F1');
+      circle.setAttribute('stroke-width', isSelected ? '2' : '1.5');
+      circle.classList.add('area-dot');
+      circle.addEventListener('click', () => {
+        state.area = r.name;
+        areaSelect.value = r.name;
+        compute();
+      });
+      g.appendChild(circle);
+
+      const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      label.setAttribute('x', r.x);
+      label.setAttribute('y', r.y - radius - 6);
+      label.classList.add('area-dot-label');
+      if (isSelected) label.classList.add('selected');
+      label.textContent = r.name;
+      g.appendChild(label);
+
+      mapDots.appendChild(g);
+    });
+
+    const selectedRow = rows.find(r => r.name === state.area);
+    const selLow = Math.max(selectedRow.value - MAE, 1500);
+    const selHigh = selectedRow.value + MAE;
+    mapSelectedLabel.textContent = state.area;
+    mapSelectedValue.textContent = `Between ${fmt(selLow)} and ${fmt(selHigh)} kr`;
+  }
+
+  function compute() {
+    const predicted = predict();
+    const deviationPct = ((state.asking - predicted) / predicted) * 100;
+    const band = (MAE / predicted) * 100;
+
+    animateNumber(predicted);
+    predictedPriceEl.classList.add('flash');
+    setTimeout(() => predictedPriceEl.classList.remove('flash'), 500);
+
+    let verdictClass, label, sub, message, tier;
+    const severeBand = band * 2.4;
+
+    if (Math.abs(deviationPct) <= band) {
+      verdictClass = 'fair'; label = 'Fair price'; tier = 'mild';
+      message = 'This price is fair';
+    } else if (deviationPct > severeBand) {
+      verdictClass = 'over'; label = 'VERY PRICEY'; tier = 'severe';
+      message = 'This apartment is much pricier than expected';
+    } else if (deviationPct > band) {
+      verdictClass = 'over'; label = 'TOO PRICEY'; tier = 'mild';
+      message = 'This apartment is pricier than expected';
+    } else if (deviationPct < -severeBand) {
+      verdictClass = 'good'; label = 'TOP DEAL'; tier = 'severe';
+      message = "You've found a really great deal";
+    } else {
+      verdictClass = 'good'; label = 'GREAT DEAL'; tier = 'mild';
+      message = "You've found a good deal";
+    }
+    sub = (deviationPct > 0 ? '+' : '') + deviationPct.toFixed(1) + '%';
+
+    verdictBanner.className = 'verdict-banner ' + verdictClass;
+    verdictIcon.className = 'verdict-icon ' + verdictClass;
+    verdictIcon.textContent = Math.abs(deviationPct) <= band ? '≈' : (deviationPct > 0 ? '↑' : '↓');
+    verdictMessage.textContent = message;
+    verdictMessage.className = 'verdict-message ' + verdictClass;
+    resultCard.className = 'card result result-card ' + verdictClass + '-bg';
+    figureGlow.className = 'figure-glow show ' + verdictClass;
+
+    askingDisplay.textContent = fmt(state.asking) + ' kr';
+    askingPerSqm.textContent = fmt(state.asking / state.size) + ' kr/m²';
+    predictedPerSqm.textContent = fmt(predicted / state.size) + ' kr/m²';
+
+    // Written interval based on the model's mean absolute error, giving
+    // an honest sense of uncertainty rather than a single precise figure
+    const intervalLow = Math.max(predicted - MAE, 1500);
+    const intervalHigh = predicted + MAE;
+    intervalLine.innerHTML = `Typically between <strong>${fmt(intervalLow)}</strong> and <strong>${fmt(intervalHigh)} kr</strong> for comparable listings.`;
+
+    rangeMarker.className = 'range-marker ' + verdictClass;
+
+    if (verdictClass === 'good') {
+      stamp.classList.remove('show');
+      burstWrap.classList.remove('show');
+      ribbonLabel1.textContent = tier === 'severe' ? 'TOP' : 'GREAT';
+      ribbonLabel2.textContent = 'DEAL';
+      ribbonWrap.classList.add('show');
+    } else if (verdictClass === 'over') {
+      stamp.classList.remove('show');
+      ribbonWrap.classList.remove('show');
+      burstLabel1.textContent = tier === 'severe' ? 'VERY' : 'TOO';
+      burstLabel2.textContent = 'PRICEY';
+      burstSpikes.style.filter = tier === 'severe' ? 'saturate(1.35) brightness(0.92)' : 'none';
+      burstWrap.classList.add('show');
+    } else {
+      ribbonWrap.classList.remove('show');
+      burstWrap.classList.remove('show');
+      stamp.classList.add('show');
+      stampLabel.textContent = label;
+      stampSub.textContent = sub;
+    }
+
+    const lowBound = predicted * 0.75;
+    const highBound = predicted * 1.25;
+    let pos = ((state.asking - lowBound) / (highBound - lowBound)) * 100;
+    pos = Math.min(Math.max(pos, 2), 98);
+    rangeMarker.style.left = pos + '%';
+
+    const zoneLowKr = predicted * (1 - band / 100);
+    const zoneHighKr = predicted * (1 + band / 100);
+    const zoneLeftPct = ((zoneLowKr - lowBound) / (highBound - lowBound)) * 100;
+    const zoneWidthPct = ((zoneHighKr - zoneLowKr) / (highBound - lowBound)) * 100;
+    normalZone.style.left = zoneLeftPct + '%';
+    normalZone.style.width = zoneWidthPct + '%';
+
+    renderMap();
+  }
+
+  const howBtn = document.getElementById('howBtn');
+  const howContent = document.getElementById('howContent');
+  howBtn.addEventListener('click', () => {
+    howBtn.classList.toggle('open');
+    howContent.classList.toggle('open');
+  });
+
+  updateFill(sizeInput, sizeFill);
+  updateFill(roomsInput, roomsFill);
+  updateFill(askingSlider, askingFill);
+  compute();
+</script>
+
+</body>
+</html>
