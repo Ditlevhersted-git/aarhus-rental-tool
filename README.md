@@ -16,4 +16,4 @@ The dataset combines historical listings with simulated observations calibrated 
 
 The scripts/ folder contains the full pipeline in execution order, covering data generation, cleaning, feature engineering, model comparison, and cross-validation.
 
-The final tool is located in docs/index.html. It is a self-contained, client-side price checker that uses a linear approximation of the trained model.
+**Live tool:** https://ditlevhersted-git.github.io/aarhus-rental-tool/
