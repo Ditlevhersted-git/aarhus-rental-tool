@@ -1,4 +1,4 @@
-# Is This Rent Fair? — Aarhus Rental Price Transparency Tool
+# Is This Rent Fair? — Aarhus Rental Price Transparency Tool (Access tool through: https://ditlevhersted-git.github.io/aarhus-rental-tool/)
 
 ## Data Science Project, Cand.merc. Business Intelligence, Aarhus University BSS. August 2026
 
